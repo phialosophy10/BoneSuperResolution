@@ -1,0 +1,61 @@
+
+Training Epoch 0
+Testing Epoch 0
+Epoch: 1/20.. Training loss: 0.21245899269152582.. Validation Loss: 0.08072106288803135
+Training Epoch 1
+Testing Epoch 1
+Epoch: 2/20.. Training loss: 0.053210329284377134.. Validation Loss: 0.04423024845909487
+Training Epoch 2
+Testing Epoch 2
+Epoch: 3/20.. Training loss: 0.026567612843333317.. Validation Loss: 0.030625562143563493
+Training Epoch 3
+Testing Epoch 3
+Epoch: 4/20.. Training loss: 0.016824738859091623.. Validation Loss: 0.02615920585677302
+Training Epoch 4
+Testing Epoch 4
+Epoch: 5/20.. Training loss: 0.013870114495543309.. Validation Loss: 0.024110575109445975
+Training Epoch 5
+Testing Epoch 5
+Epoch: 6/20.. Training loss: 0.012412755840006047.. Validation Loss: 0.022357252974954486
+Training Epoch 6
+Testing Epoch 6
+Epoch: 7/20.. Training loss: 0.011295953985233729.. Validation Loss: 0.02087420630811548
+Training Epoch 7
+Testing Epoch 7
+Epoch: 8/20.. Training loss: 0.010100446198255463.. Validation Loss: 0.019129516785404435
+Training Epoch 8
+Testing Epoch 8
+Epoch: 9/20.. Training loss: 0.008991271963382974.. Validation Loss: 0.018194003224921373
+Training Epoch 9
+Testing Epoch 9
+Epoch: 10/20.. Training loss: 0.008382228149435716.. Validation Loss: 0.018108867177385492
+Training Epoch 10
+Testing Epoch 10
+Epoch: 11/20.. Training loss: 0.008031904724259279.. Validation Loss: 0.018074858602296354
+Training Epoch 11
+Testing Epoch 11
+Epoch: 12/20.. Training loss: 0.0077944082044434536.. Validation Loss: 0.01781069398200585
+Training Epoch 12
+Testing Epoch 12
+Epoch: 13/20.. Training loss: 0.007609868607541231.. Validation Loss: 0.017897752216485745
+Training Epoch 13
+Testing Epoch 13
+Epoch: 14/20.. Training loss: 0.007462126182282379.. Validation Loss: 0.017854039717259948
+Training Epoch 14
+Testing Epoch 14
+Epoch: 15/20.. Training loss: 0.007336683051995234.. Validation Loss: 0.01778582435535507
+Training Epoch 15
+Testing Epoch 15
+Epoch: 16/20.. Training loss: 0.007235938928467059.. Validation Loss: 0.018045591590411823
+Training Epoch 16
+Testing Epoch 16
+Epoch: 17/20.. Training loss: 0.007145978260071244.. Validation Loss: 0.018065295496418433
+Training Epoch 17
+Testing Epoch 17
+Epoch: 18/20.. Training loss: 0.007064775729816577.. Validation Loss: 0.018072556715710033
+Training Epoch 18
+Testing Epoch 18
+Epoch: 19/20.. Training loss: 0.006995838092722438.. Validation Loss: 0.01844980843090938
+Training Epoch 19
+Testing Epoch 19
+Epoch: 20/20.. Training loss: 0.006927391045711855.. Validation Loss: 0.018058600412693127

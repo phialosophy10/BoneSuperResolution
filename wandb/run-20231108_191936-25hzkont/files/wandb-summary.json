@@ -1,0 +1,1 @@
+{"train_loss/gen_loss": 12198047.0, "train_loss/disc_loss": 0.32759571075439453, "_timestamp": 1699469562.6449082, "_runtime": 1986.4550092220306, "_step": 145, "val_loss/gen_loss": 12114905.0, "val_loss/disc_loss": 0.3336488902568817, "_wandb": {"runtime": 1985}}

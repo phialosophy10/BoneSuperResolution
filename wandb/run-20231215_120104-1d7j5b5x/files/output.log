@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "esrgan_bones_v3-5.py", line 121, in <module>
+    train_dataloader = DataLoader(SliceData(img_paths_train), batch_size=batch_size, drop_last=True, shuffle=True, num_workers=4)
+  File "/work3/soeba/HALOS/datasets.py", line 76, in __init__
+    for i in len(file_paths):
+TypeError: 'int' object is not iterable

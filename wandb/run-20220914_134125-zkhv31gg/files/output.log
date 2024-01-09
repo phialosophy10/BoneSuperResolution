@@ -1,0 +1,146 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 0
+Trained batch 0 in epoch 0, gen_loss = 0.5741701126098633, disc_loss = 0.5916123986244202
+Trained batch 1 in epoch 0, gen_loss = 0.5800864100456238, disc_loss = 0.6484770476818085
+Trained batch 2 in epoch 0, gen_loss = 0.5586567719777426, disc_loss = 0.6193142533302307
+Trained batch 3 in epoch 0, gen_loss = 0.5349150970578194, disc_loss = 0.5285591036081314
+Trained batch 4 in epoch 0, gen_loss = 0.5273210406303406, disc_loss = 0.4955518901348114
+Trained batch 5 in epoch 0, gen_loss = 0.5248890022436777, disc_loss = 0.4568454523881276
+Trained batch 6 in epoch 0, gen_loss = 0.5196186687265124, disc_loss = 0.4225917990718569
+Trained batch 7 in epoch 0, gen_loss = 0.5126492716372013, disc_loss = 0.3920203875750303
+Trained batch 8 in epoch 0, gen_loss = 0.5116786857446035, disc_loss = 0.37018753091494244
+Trained batch 9 in epoch 0, gen_loss = 0.5068100780248642, disc_loss = 0.3541026502847672
+Trained batch 10 in epoch 0, gen_loss = 0.5034774704412981, disc_loss = 0.33041292225772684
+Trained batch 11 in epoch 0, gen_loss = 0.5014894555012385, disc_loss = 0.31139925743142766
+Trained batch 12 in epoch 0, gen_loss = 0.5015537096903875, disc_loss = 0.29582316829608035
+Trained batch 13 in epoch 0, gen_loss = 0.5000719491924558, disc_loss = 0.2804559272314821
+Trained batch 14 in epoch 0, gen_loss = 0.49998344779014586, disc_loss = 0.26777170846859616
+Trained batch 15 in epoch 0, gen_loss = 0.49598328955471516, disc_loss = 0.25715094013139606
+Trained batch 16 in epoch 0, gen_loss = 0.49610474355080547, disc_loss = 0.24771669682334452
+Trained batch 17 in epoch 0, gen_loss = 0.49693605800469715, disc_loss = 0.2389183830883768
+Trained batch 18 in epoch 0, gen_loss = 0.4988383980173814, disc_loss = 0.23090100641313352
+Trained batch 19 in epoch 0, gen_loss = 0.49740749299526216, disc_loss = 0.22541602328419685
+Trained batch 20 in epoch 0, gen_loss = 0.4971892635027568, disc_loss = 0.2251560730593545
+Trained batch 21 in epoch 0, gen_loss = 0.4986262727867473, disc_loss = 0.22398035634647717
+Trained batch 22 in epoch 0, gen_loss = 0.49848116221635236, disc_loss = 0.21821683386097784
+Trained batch 23 in epoch 0, gen_loss = 0.49615537996093434, disc_loss = 0.2150633099178473
+Trained batch 24 in epoch 0, gen_loss = 0.49904929757118227, disc_loss = 0.2113417235016823
+Trained batch 25 in epoch 0, gen_loss = 0.4991082950280263, disc_loss = 0.2058850758923934
+Trained batch 26 in epoch 0, gen_loss = 0.49786438875728184, disc_loss = 0.2018238474373464
+Trained batch 27 in epoch 0, gen_loss = 0.49775299429893494, disc_loss = 0.1970005165785551
+Trained batch 28 in epoch 0, gen_loss = 0.4989898492550028, disc_loss = 0.19230916774992285
+Trained batch 29 in epoch 0, gen_loss = 0.5002904276053111, disc_loss = 0.18734029059608778
+Trained batch 30 in epoch 0, gen_loss = 0.5001765124259456, disc_loss = 0.18260254518639657
+Trained batch 31 in epoch 0, gen_loss = 0.4998315917328, disc_loss = 0.1781872739084065
+Trained batch 32 in epoch 0, gen_loss = 0.5007514240163745, disc_loss = 0.1739771357088378
+Trained batch 33 in epoch 0, gen_loss = 0.5006563514471054, disc_loss = 0.16986210304586327
+Trained batch 34 in epoch 0, gen_loss = 0.502774680512292, disc_loss = 0.16602116067494666
+Trained batch 35 in epoch 0, gen_loss = 0.5030776916278733, disc_loss = 0.16234914554903904
+Trained batch 36 in epoch 0, gen_loss = 0.5027840685200047, disc_loss = 0.15881407270963127
+Trained batch 37 in epoch 0, gen_loss = 0.5034603319670025, disc_loss = 0.1557679032220652
+Trained batch 38 in epoch 0, gen_loss = 0.5043131296451275, disc_loss = 0.15271239804151732
+Trained batch 39 in epoch 0, gen_loss = 0.505259157717228, disc_loss = 0.1498146964237094
+Trained batch 40 in epoch 0, gen_loss = 0.504694393495234, disc_loss = 0.14699019764254734
+Trained batch 41 in epoch 0, gen_loss = 0.5049636548473722, disc_loss = 0.14450588449835777
+Trained batch 42 in epoch 0, gen_loss = 0.5073037355445152, disc_loss = 0.1419529038113217
+Trained batch 43 in epoch 0, gen_loss = 0.5077398988333616, disc_loss = 0.1399234447797591
+Trained batch 44 in epoch 0, gen_loss = 0.5079081720776029, disc_loss = 0.13928680875235133
+Trained batch 45 in epoch 0, gen_loss = 0.5084833736005037, disc_loss = 0.13831493493331515
+Trained batch 46 in epoch 0, gen_loss = 0.508992777225819, disc_loss = 0.13665483051792104
+Trained batch 47 in epoch 0, gen_loss = 0.5091506764292717, disc_loss = 0.13497359103833637
+Trained batch 48 in epoch 0, gen_loss = 0.5086286542366962, disc_loss = 0.13298591051478775
+Trained batch 49 in epoch 0, gen_loss = 0.5096896111965179, disc_loss = 0.1309664598852396
+Trained batch 50 in epoch 0, gen_loss = 0.5101320778622347, disc_loss = 0.1289024092987472
+Trained batch 51 in epoch 0, gen_loss = 0.5101928882873975, disc_loss = 0.12684195631971726
+Trained batch 52 in epoch 0, gen_loss = 0.5099555793798195, disc_loss = 0.12482521834097943
+Trained batch 53 in epoch 0, gen_loss = 0.509527172755312, disc_loss = 0.1228792061339374
+Trained batch 54 in epoch 0, gen_loss = 0.5095149370757016, disc_loss = 0.12108126794072714
+Trained batch 55 in epoch 0, gen_loss = 0.5095811374485493, disc_loss = 0.11933342783179667
+Trained batch 56 in epoch 0, gen_loss = 0.5097092834481022, disc_loss = 0.11762408546188421
+Trained batch 57 in epoch 0, gen_loss = 0.5092693623797647, disc_loss = 0.11596286194077854
+Trained batch 58 in epoch 0, gen_loss = 0.5088579073800878, disc_loss = 0.1145207507504245
+Trained batch 59 in epoch 0, gen_loss = 0.5093324984113375, disc_loss = 0.1130982408610483
+Trained batch 60 in epoch 0, gen_loss = 0.5094217272078405, disc_loss = 0.11169848755979148
+Trained batch 61 in epoch 0, gen_loss = 0.5089055044997123, disc_loss = 0.11051492741511713
+Trained batch 62 in epoch 0, gen_loss = 0.50894129512802, disc_loss = 0.10938139585038972
+Trained batch 63 in epoch 0, gen_loss = 0.5087245674803853, disc_loss = 0.10811969864880666
+Trained batch 64 in epoch 0, gen_loss = 0.5094243022111746, disc_loss = 0.10688081269080822
+Trained batch 65 in epoch 0, gen_loss = 0.5089187649163333, disc_loss = 0.1058025114576925
+Trained batch 66 in epoch 0, gen_loss = 0.5088468131734364, disc_loss = 0.10481809113007873
+Trained batch 67 in epoch 0, gen_loss = 0.5086648692102993, disc_loss = 0.10374001046533093
+Trained batch 68 in epoch 0, gen_loss = 0.5087791560352712, disc_loss = 0.10257800425524297
+Trained batch 69 in epoch 0, gen_loss = 0.5086110204458236, disc_loss = 0.10138559889580523
+Trained batch 70 in epoch 0, gen_loss = 0.5084829909700743, disc_loss = 0.10026858256421459
+Trained batch 71 in epoch 0, gen_loss = 0.5087455097171996, disc_loss = 0.09913525409582588
+Trained batch 72 in epoch 0, gen_loss = 0.5081718674261276, disc_loss = 0.09815576914953042
+Trained batch 73 in epoch 0, gen_loss = 0.5080264842993504, disc_loss = 0.09746061318327447
+Trained batch 74 in epoch 0, gen_loss = 0.5085014132658641, disc_loss = 0.09652708172798156
+Trained batch 75 in epoch 0, gen_loss = 0.5085682488585773, disc_loss = 0.09559996558451339
+Trained batch 76 in epoch 0, gen_loss = 0.5084603572046602, disc_loss = 0.09469839940210442
+Trained batch 77 in epoch 0, gen_loss = 0.5087190472926849, disc_loss = 0.09374044045137289
+Trained batch 78 in epoch 0, gen_loss = 0.5088144491744947, disc_loss = 0.09275665537371666
+Trained batch 79 in epoch 0, gen_loss = 0.5088611204177141, disc_loss = 0.09180055984761566
+Trained batch 80 in epoch 0, gen_loss = 0.5092504101770895, disc_loss = 0.09086085855960846
+Trained batch 81 in epoch 0, gen_loss = 0.5091454354001255, disc_loss = 0.08998934581603218
+Trained batch 82 in epoch 0, gen_loss = 0.5085479311914329, disc_loss = 0.08929162968443818
+Trained batch 83 in epoch 0, gen_loss = 0.5084152991573015, disc_loss = 0.08881391649178806
+Trained batch 84 in epoch 0, gen_loss = 0.5089506727807662, disc_loss = 0.08829221455928157
+Trained batch 85 in epoch 0, gen_loss = 0.5088284421105718, disc_loss = 0.08769345086414454
+Trained batch 86 in epoch 0, gen_loss = 0.5092510954401959, disc_loss = 0.08697678345715863
+Trained batch 87 in epoch 0, gen_loss = 0.5094752741808241, disc_loss = 0.08619808947498148
+Trained batch 88 in epoch 0, gen_loss = 0.5094908003726702, disc_loss = 0.08539357676767231
+Trained batch 89 in epoch 0, gen_loss = 0.5097423848178652, disc_loss = 0.0846446357253525
+Trained batch 90 in epoch 0, gen_loss = 0.5099253376106639, disc_loss = 0.08388258764458882
+Trained batch 91 in epoch 0, gen_loss = 0.5095394480487575, disc_loss = 0.08312979257544098
+Trained batch 92 in epoch 0, gen_loss = 0.5097904961596254, disc_loss = 0.08244139220445387
+Trained batch 93 in epoch 0, gen_loss = 0.5100819531907427, disc_loss = 0.08171605542698439
+Trained batch 94 in epoch 0, gen_loss = 0.509375135208431, disc_loss = 0.08108499365809717
+Trained batch 95 in epoch 0, gen_loss = 0.5089504256223639, disc_loss = 0.0804971091565676
+Trained batch 96 in epoch 0, gen_loss = 0.508577884779763, disc_loss = 0.07983992444639354
+Trained batch 97 in epoch 0, gen_loss = 0.5084681608238999, disc_loss = 0.0792196545825929
+Trained batch 98 in epoch 0, gen_loss = 0.5081526299919745, disc_loss = 0.07860546833788505
+Trained batch 99 in epoch 0, gen_loss = 0.5080772602558136, disc_loss = 0.07801090016961097
+Trained batch 100 in epoch 0, gen_loss = 0.5080949351339057, disc_loss = 0.0774027824143667
+Trained batch 101 in epoch 0, gen_loss = 0.5081105430920919, disc_loss = 0.07679540620130651
+Trained batch 102 in epoch 0, gen_loss = 0.5077897967065422, disc_loss = 0.07617550482521358
+Trained batch 103 in epoch 0, gen_loss = 0.5077903090188136, disc_loss = 0.07556271529756486
+Trained batch 104 in epoch 0, gen_loss = 0.5074674739724114, disc_loss = 0.0749512202860344
+Trained batch 105 in epoch 0, gen_loss = 0.5075731876323808, disc_loss = 0.07436783077581874
+Trained batch 106 in epoch 0, gen_loss = 0.5074498154849649, disc_loss = 0.07379594709828635
+Trained batch 107 in epoch 0, gen_loss = 0.5073559747801887, disc_loss = 0.07321263461684187
+Trained batch 108 in epoch 0, gen_loss = 0.5072814663615796, disc_loss = 0.07264583899613915
+Trained batch 109 in epoch 0, gen_loss = 0.5069262052124197, disc_loss = 0.07211265193129128
+Trained batch 110 in epoch 0, gen_loss = 0.5073168854992669, disc_loss = 0.07158499560948159
+Trained batch 111 in epoch 0, gen_loss = 0.507585359737277, disc_loss = 0.07107071347335088
+Trained batch 112 in epoch 0, gen_loss = 0.507419477785583, disc_loss = 0.07055953895030297
+Trained batch 113 in epoch 0, gen_loss = 0.5075691177656776, disc_loss = 0.0700705846640886
+Testing Epoch 0
+Traceback (most recent call last):
+  File "srgan_bones.py", line 332, in <module>
+    gen_hr = generator(imgs_lr)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "srgan_bones.py", line 198, in forward
+    out = self.res_blocks(out1)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "srgan_bones.py", line 175, in forward
+    return x + self.conv_block(x)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 31.75 GiB total capacity; 25.52 GiB already allocated; 103.69 MiB free; 30.49 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

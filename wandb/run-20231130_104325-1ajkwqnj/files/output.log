@@ -1,0 +1,389 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 1
+Epoch 1, batch no. 10, gen. loss: 129478836.8, disc. loss: 0.9348638474941253
+Epoch 1, batch no. 20, gen. loss: 125956318.4, disc. loss: 1.137013602256775
+Epoch 1, batch no. 30, gen. loss: 156051125.6, disc. loss: 0.40908046066761017
+Epoch 1, batch no. 40, gen. loss: 127115420.4, disc. loss: 0.416952508687973
+Epoch 1, batch no. 50, gen. loss: 118383679.2, disc. loss: 0.3710376709699631
+Epoch 1, batch no. 60, gen. loss: 106217848.0, disc. loss: 0.361553943157196
+Epoch 1, batch no. 70, gen. loss: 107629603.2, disc. loss: 0.3342771202325821
+Epoch 1, batch no. 80, gen. loss: 91854416.0, disc. loss: 0.33598334789276124
+Epoch 1, batch no. 90, gen. loss: 77520775.2, disc. loss: 0.33303104639053344
+Epoch 1, batch no. 100, gen. loss: 68126109.6, disc. loss: 0.3326760113239288
+Epoch 1, batch no. 110, gen. loss: 78913652.0, disc. loss: 0.3269146353006363
+Epoch 1, batch no. 120, gen. loss: 75484425.2, disc. loss: 0.3286291003227234
+Epoch 1, batch no. 130, gen. loss: 77021958.0, disc. loss: 0.3279187262058258
+Epoch 1, batch no. 140, gen. loss: 79294058.8, disc. loss: 0.32828460037708285
+Epoch 1, batch no. 150, gen. loss: 76678555.2, disc. loss: 0.327704644203186
+Epoch 1, batch no. 160, gen. loss: 76589242.4, disc. loss: 0.3273416370153427
+Epoch 1, batch no. 170, gen. loss: 72838948.8, disc. loss: 0.32652662694454193
+Epoch 1, batch no. 180, gen. loss: 75368516.8, disc. loss: 0.326590296626091
+Epoch 1, batch no. 190, gen. loss: 72241155.2, disc. loss: 0.3270368665456772
+Epoch 1, batch no. 200, gen. loss: 76910059.2, disc. loss: 0.32697861194610595
+Epoch 1, batch no. 210, gen. loss: 80464653.2, disc. loss: 0.3261909306049347
+Epoch 1, batch no. 220, gen. loss: 70966023.2, disc. loss: 0.3262318193912506
+Epoch 1, batch no. 230, gen. loss: 76555748.8, disc. loss: 0.32668504416942595
+Epoch 1, batch no. 240, gen. loss: 71677484.0, disc. loss: 0.3265446454286575
+Epoch 1, batch no. 250, gen. loss: 77538188.8, disc. loss: 0.32620553970336913
+Epoch 1, batch no. 260, gen. loss: 83356375.6, disc. loss: 0.32640761137008667
+Epoch 1, batch no. 270, gen. loss: 71707631.2, disc. loss: 0.3261547267436981
+Epoch 1, batch no. 280, gen. loss: 80622424.0, disc. loss: 0.3259038537740707
+Epoch 1, batch no. 290, gen. loss: 67008317.6, disc. loss: 0.32652671039104464
+Epoch 1, batch no. 300, gen. loss: 77412983.6, disc. loss: 0.3263041406869888
+Epoch 1, batch no. 310, gen. loss: 71752116.8, disc. loss: 0.3262192338705063
+Epoch 1, batch no. 320, gen. loss: 76709476.8, disc. loss: 0.3258212238550186
+Epoch 1, batch no. 330, gen. loss: 79932440.0, disc. loss: 0.3262519478797913
+Epoch 1, batch no. 340, gen. loss: 73056721.2, disc. loss: 0.3263493627309799
+Epoch 1, batch no. 350, gen. loss: 76275283.2, disc. loss: 0.3262857586145401
+Epoch 1, batch no. 360, gen. loss: 70098200.0, disc. loss: 0.3258845001459122
+Epoch 1, batch no. 370, gen. loss: 74876401.2, disc. loss: 0.3258367866277695
+Epoch 1, batch no. 380, gen. loss: 80899576.8, disc. loss: 0.3254969149827957
+Epoch 1, batch no. 390, gen. loss: 71411279.2, disc. loss: 0.3259112238883972
+Epoch 1, batch no. 400, gen. loss: 69432532.8, disc. loss: 0.3261193722486496
+Epoch 1, batch no. 410, gen. loss: 72404651.6, disc. loss: 0.32589970231056214
+Epoch 1, batch no. 420, gen. loss: 66848776.4, disc. loss: 0.32559140026569366
+Epoch 1, batch no. 430, gen. loss: 73152433.6, disc. loss: 0.3257590651512146
+Epoch 1, batch no. 440, gen. loss: 70978249.6, disc. loss: 0.3254989176988602
+Epoch 1, batch no. 450, gen. loss: 70434599.2, disc. loss: 0.3254792898893356
+Epoch 1, batch no. 460, gen. loss: 65482447.2, disc. loss: 0.3257299065589905
+Epoch 1, batch no. 470, gen. loss: 69371705.6, disc. loss: 0.32579281330108645
+Epoch 1, batch no. 480, gen. loss: 77835349.2, disc. loss: 0.326101678609848
+Epoch 1, batch no. 490, gen. loss: 71321612.8, disc. loss: 0.3265876144170761
+Epoch 1, batch no. 500, gen. loss: 66454544.8, disc. loss: 0.32600823044776917
+Epoch 1, batch no. 510, gen. loss: 71742783.2, disc. loss: 0.32576742172241213
+Epoch 1, batch no. 520, gen. loss: 71028107.6, disc. loss: 0.32555779814720154
+Epoch 1, batch no. 530, gen. loss: 67532982.0, disc. loss: 0.3259454250335693
+Epoch 1, batch no. 540, gen. loss: 70108365.6, disc. loss: 0.32565646469593046
+Epoch 1, batch no. 550, gen. loss: 72754818.8, disc. loss: 0.3267395257949829
+Epoch 1, batch no. 560, gen. loss: 64206844.0, disc. loss: 0.3275545805692673
+Epoch 1, batch no. 570, gen. loss: 64083244.8, disc. loss: 0.32642855048179625
+Epoch 1, batch no. 580, gen. loss: 63601830.0, disc. loss: 0.32540081441402435
+Epoch 1, batch no. 590, gen. loss: 71659234.4, disc. loss: 0.3259336143732071
+Epoch 1, batch no. 600, gen. loss: 68209668.0, disc. loss: 0.32563339471817015
+Epoch 1, batch no. 610, gen. loss: 68563916.8, disc. loss: 0.32546837627887726
+Epoch 1, batch no. 620, gen. loss: 69239508.4, disc. loss: 0.32574540972709654
+Epoch 1, batch no. 630, gen. loss: 65575502.4, disc. loss: 0.3255360066890717
+Epoch 1, batch no. 640, gen. loss: 69122296.4, disc. loss: 0.32558234930038454
+Epoch 1, batch no. 650, gen. loss: 60751050.0, disc. loss: 0.32567182183265686
+Epoch 1, batch no. 660, gen. loss: 63287048.0, disc. loss: 0.32562359273433683
+Epoch 1, batch no. 670, gen. loss: 61322468.4, disc. loss: 0.325623607635498
+Epoch 1, batch no. 680, gen. loss: 66638555.2, disc. loss: 0.3256731390953064
+Epoch 1, batch no. 690, gen. loss: 63193603.2, disc. loss: 0.32567888796329497
+Testing Epoch 1
+Discriminator training/validation loss in epoch 1/5 was 0.3506/0.3258
+Generator GAN training/validation loss in epoch 1/5 was 77289670.6323/66666441.5800
+Average PSNR of validation set in epoch 1/5 was 8.1573
+Average SSIM of validation set in epoch 1/5 was -0.0411
+Average discriminator guess on reals in epoch 1/5 was 0.9044
+Average discriminator guess on fakes in epoch 1/5 was 0.0000
+Training Epoch 2
+Epoch 2, batch no. 10, gen. loss: 54299540.0, disc. loss: 0.32592914402484896
+Epoch 2, batch no. 20, gen. loss: 79218259.6, disc. loss: 0.32611021399497986
+Epoch 2, batch no. 30, gen. loss: 60241228.4, disc. loss: 0.32583611011505126
+Epoch 2, batch no. 40, gen. loss: 61988910.4, disc. loss: 0.32608656883239745
+Epoch 2, batch no. 50, gen. loss: 52430870.4, disc. loss: 0.3261380523443222
+Epoch 2, batch no. 60, gen. loss: 57370723.0, disc. loss: 0.326040980219841
+Epoch 2, batch no. 70, gen. loss: 61014585.2, disc. loss: 0.32615295350551604
+Epoch 2, batch no. 80, gen. loss: 61323816.8, disc. loss: 0.3258983105421066
+Epoch 2, batch no. 90, gen. loss: 56850046.8, disc. loss: 0.3254230678081512
+Epoch 2, batch no. 100, gen. loss: 63740876.4, disc. loss: 0.3255132108926773
+Epoch 2, batch no. 110, gen. loss: 56242424.8, disc. loss: 0.3256546646356583
+Epoch 2, batch no. 120, gen. loss: 50395423.2, disc. loss: 0.3255419164896011
+Epoch 2, batch no. 130, gen. loss: 52041721.6, disc. loss: 0.32575220465660093
+Epoch 2, batch no. 140, gen. loss: 51645622.4, disc. loss: 0.3256955474615097
+Epoch 2, batch no. 150, gen. loss: 55571593.6, disc. loss: 0.3262924253940582
+Epoch 2, batch no. 160, gen. loss: 53301266.0, disc. loss: 0.3255822777748108
+Epoch 2, batch no. 170, gen. loss: 45025592.0, disc. loss: 0.356044802069664
+Epoch 2, batch no. 180, gen. loss: 51859442.4, disc. loss: 0.7980426967144012
+Epoch 2, batch no. 190, gen. loss: 46297682.6, disc. loss: 0.48257066011428834
+Epoch 2, batch no. 200, gen. loss: 49465217.2, disc. loss: 0.43697001338005065
+Epoch 2, batch no. 210, gen. loss: 42168597.6, disc. loss: 0.408738449215889
+Epoch 2, batch no. 220, gen. loss: 40529085.0, disc. loss: 0.40917047560215
+Epoch 2, batch no. 230, gen. loss: 42532614.2, disc. loss: 0.3896578013896942
+Epoch 2, batch no. 240, gen. loss: 44587653.0, disc. loss: 0.34248740077018736
+Epoch 2, batch no. 250, gen. loss: 37384161.6, disc. loss: 0.33734779357910155
+Epoch 2, batch no. 260, gen. loss: 44451445.2, disc. loss: 0.33032049536705016
+Epoch 2, batch no. 270, gen. loss: 37731970.8, disc. loss: 0.33183749914169314
+Epoch 2, batch no. 280, gen. loss: 40599298.2, disc. loss: 0.33021441102027893
+Epoch 2, batch no. 290, gen. loss: 37055582.6, disc. loss: 0.3297772347927094
+Epoch 2, batch no. 300, gen. loss: 34616294.4, disc. loss: 0.34408759474754336
+Epoch 2, batch no. 310, gen. loss: 33404596.2, disc. loss: 0.40660135746002196
+Epoch 2, batch no. 320, gen. loss: 33217879.0, disc. loss: 0.7597336798906327
+Epoch 2, batch no. 330, gen. loss: 35234601.6, disc. loss: 0.5069725811481476
+Epoch 2, batch no. 340, gen. loss: 34917946.8, disc. loss: 0.37121203243732454
+Epoch 2, batch no. 350, gen. loss: 33100935.8, disc. loss: 0.40103586614131925
+Epoch 2, batch no. 360, gen. loss: 34703363.2, disc. loss: 0.39391985535621643
+Epoch 2, batch no. 370, gen. loss: 33582578.4, disc. loss: 0.3584329396486282
+Epoch 2, batch no. 380, gen. loss: 36375457.8, disc. loss: 0.3411553353071213
+Epoch 2, batch no. 390, gen. loss: 38205186.4, disc. loss: 0.3275701910257339
+Epoch 2, batch no. 400, gen. loss: 33544720.0, disc. loss: 0.3275715559720993
+Epoch 2, batch no. 410, gen. loss: 35839016.6, disc. loss: 0.32787715792655947
+Epoch 2, batch no. 420, gen. loss: 32663561.4, disc. loss: 0.32817715108394624
+Epoch 2, batch no. 430, gen. loss: 32123882.6, disc. loss: 0.3258247643709183
+Epoch 2, batch no. 440, gen. loss: 36412893.0, disc. loss: 0.3265192449092865
+Epoch 2, batch no. 450, gen. loss: 35983132.8, disc. loss: 0.3259193032979965
+Epoch 2, batch no. 460, gen. loss: 36360892.4, disc. loss: 0.32609201967716217
+Epoch 2, batch no. 470, gen. loss: 35229067.6, disc. loss: 0.32566083669662477
+Epoch 2, batch no. 480, gen. loss: 34078002.2, disc. loss: 0.3256357431411743
+Epoch 2, batch no. 490, gen. loss: 36791254.8, disc. loss: 0.3265128701925278
+Epoch 2, batch no. 500, gen. loss: 32188913.4, disc. loss: 0.3259360879659653
+Epoch 2, batch no. 510, gen. loss: 32469559.8, disc. loss: 0.3255434066057205
+Epoch 2, batch no. 520, gen. loss: 33523075.2, disc. loss: 0.32554817497730254
+Epoch 2, batch no. 530, gen. loss: 35938391.8, disc. loss: 0.3255266934633255
+Epoch 2, batch no. 540, gen. loss: 34133123.4, disc. loss: 0.3254647523164749
+Epoch 2, batch no. 550, gen. loss: 34240663.5, disc. loss: 0.32533862590789797
+Epoch 2, batch no. 560, gen. loss: 35526241.6, disc. loss: 0.32543085515499115
+Epoch 2, batch no. 570, gen. loss: 35178815.2, disc. loss: 0.3255546897649765
+Epoch 2, batch no. 580, gen. loss: 31665631.2, disc. loss: 0.32551603615283964
+Epoch 2, batch no. 590, gen. loss: 32592597.2, disc. loss: 0.3255534529685974
+Epoch 2, batch no. 600, gen. loss: 32976150.2, disc. loss: 0.3253425508737564
+Epoch 2, batch no. 610, gen. loss: 33960330.4, disc. loss: 0.32533790171146393
+Epoch 2, batch no. 620, gen. loss: 30216899.0, disc. loss: 0.3252484560012817
+Epoch 2, batch no. 630, gen. loss: 32984883.8, disc. loss: 0.3252359241247177
+Epoch 2, batch no. 640, gen. loss: 34932742.8, disc. loss: 0.3252706050872803
+Epoch 2, batch no. 650, gen. loss: 34812955.6, disc. loss: 0.32525203227996824
+Epoch 2, batch no. 660, gen. loss: 31816212.8, disc. loss: 0.3253000736236572
+Epoch 2, batch no. 670, gen. loss: 34304012.6, disc. loss: 0.3252569228410721
+Epoch 2, batch no. 680, gen. loss: 30875796.4, disc. loss: 0.3254542499780655
+Epoch 2, batch no. 690, gen. loss: 32182096.6, disc. loss: 0.32522557973861693
+Testing Epoch 2
+Discriminator training/validation loss in epoch 2/5 was 0.3544/0.3252
+Generator GAN training/validation loss in epoch 2/5 was 41241306.4392/35456353.5557
+Average PSNR of validation set in epoch 2/5 was 8.8149
+Average SSIM of validation set in epoch 2/5 was -0.0853
+Average discriminator guess on reals in epoch 2/5 was 0.9007
+Average discriminator guess on fakes in epoch 2/5 was 0.0000
+Training Epoch 3
+Epoch 3, batch no. 10, gen. loss: 32592776.8, disc. loss: 0.3251967877149582
+Epoch 3, batch no. 20, gen. loss: 26717258.0, disc. loss: 0.3252454936504364
+Epoch 3, batch no. 30, gen. loss: 31896209.2, disc. loss: 0.32528147995471957
+Epoch 3, batch no. 40, gen. loss: 34677093.0, disc. loss: 0.3252588748931885
+Epoch 3, batch no. 50, gen. loss: 37778760.2, disc. loss: 0.32554857432842255
+Epoch 3, batch no. 60, gen. loss: 34368594.8, disc. loss: 0.32532436549663546
+Epoch 3, batch no. 70, gen. loss: 33874458.2, disc. loss: 0.32534841299057005
+Epoch 3, batch no. 80, gen. loss: 32832021.8, disc. loss: 0.32546371817588804
+Epoch 3, batch no. 90, gen. loss: 32694133.8, disc. loss: 0.32550291121006014
+Epoch 3, batch no. 100, gen. loss: 29080657.3, disc. loss: 0.3252268314361572
+Epoch 3, batch no. 110, gen. loss: 33822282.2, disc. loss: 0.32521675527095795
+Epoch 3, batch no. 120, gen. loss: 34214219.2, disc. loss: 0.32528504729270935
+Epoch 3, batch no. 130, gen. loss: 30533144.6, disc. loss: 0.3252194315195084
+Epoch 3, batch no. 140, gen. loss: 34061405.4, disc. loss: 0.32520627677440644
+Epoch 3, batch no. 150, gen. loss: 32267368.8, disc. loss: 0.3251590460538864
+Epoch 3, batch no. 160, gen. loss: 31548111.4, disc. loss: 0.32521051466464995
+Epoch 3, batch no. 170, gen. loss: 32175114.0, disc. loss: 0.3252998501062393
+Epoch 3, batch no. 180, gen. loss: 30620970.6, disc. loss: 0.3252240359783173
+Epoch 3, batch no. 190, gen. loss: 30553153.2, disc. loss: 0.325280088186264
+Epoch 3, batch no. 200, gen. loss: 30322552.2, disc. loss: 0.325245863199234
+Epoch 3, batch no. 210, gen. loss: 31300906.6, disc. loss: 0.3251879423856735
+Epoch 3, batch no. 220, gen. loss: 29404501.4, disc. loss: 0.3251659214496613
+Epoch 3, batch no. 230, gen. loss: 31808985.4, disc. loss: 0.3252015471458435
+Epoch 3, batch no. 240, gen. loss: 33313496.0, disc. loss: 0.32518014311790466
+Epoch 3, batch no. 250, gen. loss: 28514244.0, disc. loss: 0.32519127428531647
+Epoch 3, batch no. 260, gen. loss: 32161020.2, disc. loss: 0.32518300116062165
+Epoch 3, batch no. 270, gen. loss: 28834625.0, disc. loss: 0.3252276390790939
+Epoch 3, batch no. 280, gen. loss: 30723917.8, disc. loss: 0.32516020238399507
+Epoch 3, batch no. 290, gen. loss: 30623596.2, disc. loss: 0.3252099215984344
+Epoch 3, batch no. 300, gen. loss: 28070308.2, disc. loss: 0.32517172694206237
+Epoch 3, batch no. 310, gen. loss: 29244982.9, disc. loss: 0.32514151334762575
+Epoch 3, batch no. 320, gen. loss: 29191253.4, disc. loss: 0.3251897782087326
+Epoch 3, batch no. 330, gen. loss: 33277806.6, disc. loss: 0.32519306540489196
+Epoch 3, batch no. 340, gen. loss: 28756030.8, disc. loss: 0.32526264786720277
+Epoch 3, batch no. 350, gen. loss: 31298712.4, disc. loss: 0.3251822888851166
+Epoch 3, batch no. 360, gen. loss: 29808640.6, disc. loss: 0.32524622082710264
+Epoch 3, batch no. 370, gen. loss: 30057047.8, disc. loss: 0.3251855313777924
+Epoch 3, batch no. 380, gen. loss: 29327085.8, disc. loss: 0.32516578435897825
+Epoch 3, batch no. 390, gen. loss: 30373439.8, disc. loss: 0.3251555263996124
+Epoch 3, batch no. 400, gen. loss: 31505554.8, disc. loss: 0.3251468390226364
+Epoch 3, batch no. 410, gen. loss: 27035831.0, disc. loss: 0.3251620471477509
+Epoch 3, batch no. 420, gen. loss: 29138397.8, disc. loss: 0.32517441511154177
+Epoch 3, batch no. 430, gen. loss: 29017052.2, disc. loss: 0.3252285897731781
+Epoch 3, batch no. 440, gen. loss: 33270830.8, disc. loss: 0.3252276450395584
+Epoch 3, batch no. 450, gen. loss: 31564268.6, disc. loss: 0.325207045674324
+Epoch 3, batch no. 460, gen. loss: 31672456.4, disc. loss: 0.3252979278564453
+Epoch 3, batch no. 470, gen. loss: 33693565.8, disc. loss: 0.3251544415950775
+Epoch 3, batch no. 480, gen. loss: 30483949.4, disc. loss: 0.3252201020717621
+Epoch 3, batch no. 490, gen. loss: 30307257.0, disc. loss: 0.3252272754907608
+Epoch 3, batch no. 500, gen. loss: 32986782.4, disc. loss: 0.3251461356878281
+Epoch 3, batch no. 510, gen. loss: 31343236.2, disc. loss: 0.3251281440258026
+Epoch 3, batch no. 520, gen. loss: 29263448.6, disc. loss: 0.32514389753341677
+Epoch 3, batch no. 530, gen. loss: 34853205.4, disc. loss: 0.325153586268425
+Epoch 3, batch no. 540, gen. loss: 29179103.6, disc. loss: 0.3251791328191757
+Epoch 3, batch no. 550, gen. loss: 30486126.7, disc. loss: 0.32515714764595033
+Epoch 3, batch no. 560, gen. loss: 28386248.2, disc. loss: 0.3251321345567703
+Epoch 3, batch no. 570, gen. loss: 32769830.4, disc. loss: 0.3251497566699982
+Epoch 3, batch no. 580, gen. loss: 30954396.8, disc. loss: 0.3251547753810883
+Epoch 3, batch no. 590, gen. loss: 29771570.2, disc. loss: 0.32514525949954987
+Epoch 3, batch no. 600, gen. loss: 30001379.6, disc. loss: 0.3251746863126755
+Epoch 3, batch no. 610, gen. loss: 31562983.8, disc. loss: 0.3251875042915344
+Epoch 3, batch no. 620, gen. loss: 28363072.6, disc. loss: 0.32515659034252165
+Epoch 3, batch no. 630, gen. loss: 33329235.2, disc. loss: 0.32514744699001313
+Epoch 3, batch no. 640, gen. loss: 29773046.8, disc. loss: 0.3251651734113693
+Epoch 3, batch no. 650, gen. loss: 26416342.4, disc. loss: 0.3251907050609589
+Epoch 3, batch no. 660, gen. loss: 30100989.6, disc. loss: 0.32516834437847136
+Epoch 3, batch no. 670, gen. loss: 33068734.0, disc. loss: 0.3251453548669815
+Epoch 3, batch no. 680, gen. loss: 31322264.8, disc. loss: 0.325144436955452
+Epoch 3, batch no. 690, gen. loss: 30123431.2, disc. loss: 0.3251516729593277
+Testing Epoch 3
+Discriminator training/validation loss in epoch 3/5 was 0.3252/0.3252
+Generator GAN training/validation loss in epoch 3/5 was 31096658.3505/30788821.4414
+Average PSNR of validation set in epoch 3/5 was 9.6212
+Average SSIM of validation set in epoch 3/5 was 0.0633
+Average discriminator guess on reals in epoch 3/5 was 0.8986
+Average discriminator guess on fakes in epoch 3/5 was 0.0000
+Training Epoch 4
+Epoch 4, batch no. 10, gen. loss: 31496927.8, disc. loss: 0.3251255929470062
+Epoch 4, batch no. 20, gen. loss: 29638143.2, disc. loss: 0.3251750200986862
+Epoch 4, batch no. 30, gen. loss: 27330379.4, disc. loss: 0.3251335769891739
+Epoch 4, batch no. 40, gen. loss: 30623811.4, disc. loss: 0.3251927733421326
+Epoch 4, batch no. 50, gen. loss: 28765390.8, disc. loss: 0.3251582711935043
+Epoch 4, batch no. 60, gen. loss: 31486571.4, disc. loss: 0.32512799799442293
+Epoch 4, batch no. 70, gen. loss: 28244828.2, disc. loss: 0.3251323997974396
+Epoch 4, batch no. 80, gen. loss: 33221472.2, disc. loss: 0.32511698007583617
+Epoch 4, batch no. 90, gen. loss: 30211556.4, disc. loss: 0.32513439655303955
+Epoch 4, batch no. 100, gen. loss: 26636230.4, disc. loss: 0.325162872672081
+Epoch 4, batch no. 110, gen. loss: 26923655.0, disc. loss: 0.32519989311695097
+Epoch 4, batch no. 120, gen. loss: 27916724.0, disc. loss: 0.3251293271780014
+Epoch 4, batch no. 130, gen. loss: 30194691.2, disc. loss: 0.3251391589641571
+Epoch 4, batch no. 140, gen. loss: 29325001.0, disc. loss: 0.3251622349023819
+Epoch 4, batch no. 150, gen. loss: 30279050.4, disc. loss: 0.32513428628444674
+Epoch 4, batch no. 160, gen. loss: 28649144.0, disc. loss: 0.32512438893318174
+Epoch 4, batch no. 170, gen. loss: 29836162.0, disc. loss: 0.3251219213008881
+Epoch 4, batch no. 180, gen. loss: 29467954.4, disc. loss: 0.325142440199852
+Epoch 4, batch no. 190, gen. loss: 27807746.4, disc. loss: 0.32514314353466034
+Epoch 4, batch no. 200, gen. loss: 30497144.4, disc. loss: 0.32512086629867554
+Epoch 4, batch no. 210, gen. loss: 27937219.6, disc. loss: 0.32516779005527496
+Epoch 4, batch no. 220, gen. loss: 29680027.2, disc. loss: 0.3251313090324402
+Epoch 4, batch no. 230, gen. loss: 24999472.8, disc. loss: 0.325113046169281
+Epoch 4, batch no. 240, gen. loss: 25538657.6, disc. loss: 0.32511881589889524
+Epoch 4, batch no. 250, gen. loss: 31934240.2, disc. loss: 0.3251373410224915
+Epoch 4, batch no. 260, gen. loss: 27505275.2, disc. loss: 0.3251644879579544
+Epoch 4, batch no. 270, gen. loss: 28324220.6, disc. loss: 0.3252733051776886
+Epoch 4, batch no. 280, gen. loss: 29735260.0, disc. loss: 0.3251756429672241
+Epoch 4, batch no. 290, gen. loss: 30975954.6, disc. loss: 0.32511035799980165
+Epoch 4, batch no. 300, gen. loss: 25508537.3, disc. loss: 0.3251051127910614
+Epoch 4, batch no. 310, gen. loss: 33676959.4, disc. loss: 0.32514175176620486
+Epoch 4, batch no. 320, gen. loss: 30674848.6, disc. loss: 0.3251392960548401
+Epoch 4, batch no. 330, gen. loss: 28863927.6, disc. loss: 0.32520664036273955
+Epoch 4, batch no. 340, gen. loss: 29739878.0, disc. loss: 0.3251834839582443
+Epoch 4, batch no. 350, gen. loss: 26548881.2, disc. loss: 0.3251159071922302
+Epoch 4, batch no. 360, gen. loss: 28191981.2, disc. loss: 0.32517738044261935
+Epoch 4, batch no. 370, gen. loss: 29030890.0, disc. loss: 0.3251126557588577
+Epoch 4, batch no. 380, gen. loss: 30435294.2, disc. loss: 0.3250985950231552
+Epoch 4, batch no. 390, gen. loss: 30704784.8, disc. loss: 0.32511354982852936
+Epoch 4, batch no. 400, gen. loss: 26623341.2, disc. loss: 0.3251537561416626
+Epoch 4, batch no. 410, gen. loss: 28898559.2, disc. loss: 0.3251388490200043
+Epoch 4, batch no. 420, gen. loss: 30324044.8, disc. loss: 0.32513667047023775
+Epoch 4, batch no. 430, gen. loss: 26774531.9, disc. loss: 0.32513714134693145
+Epoch 4, batch no. 440, gen. loss: 25925020.6, disc. loss: 0.32512539327144624
+Epoch 4, batch no. 450, gen. loss: 26418217.4, disc. loss: 0.32513248026371
+Epoch 4, batch no. 460, gen. loss: 24452620.6, disc. loss: 0.32510342001914977
+Epoch 4, batch no. 470, gen. loss: 28499819.3, disc. loss: 0.3251226872205734
+Epoch 4, batch no. 480, gen. loss: 30665760.8, disc. loss: 0.3251218557357788
+Epoch 4, batch no. 490, gen. loss: 30764433.2, disc. loss: 0.3251342326402664
+Epoch 4, batch no. 500, gen. loss: 25016716.0, disc. loss: 0.3251569092273712
+Epoch 4, batch no. 510, gen. loss: 26951815.2, disc. loss: 0.32517442405223845
+Epoch 4, batch no. 520, gen. loss: 27729590.1, disc. loss: 0.3251103550195694
+Epoch 4, batch no. 530, gen. loss: 26893106.8, disc. loss: 0.32510826289653777
+Epoch 4, batch no. 540, gen. loss: 28184662.8, disc. loss: 0.3252071559429169
+Epoch 4, batch no. 550, gen. loss: 24515963.2, disc. loss: 0.3252152681350708
+Epoch 4, batch no. 560, gen. loss: 27288108.8, disc. loss: 0.325166255235672
+Epoch 4, batch no. 570, gen. loss: 26274802.2, disc. loss: 0.3251569032669067
+Epoch 4, batch no. 580, gen. loss: 26194661.8, disc. loss: 0.32521533966064453
+Epoch 4, batch no. 590, gen. loss: 26015636.2, disc. loss: 0.32516904175281525
+Epoch 4, batch no. 600, gen. loss: 26428859.8, disc. loss: 0.32515519559383393
+Epoch 4, batch no. 610, gen. loss: 28847762.2, disc. loss: 0.32517818808555604
+Epoch 4, batch no. 620, gen. loss: 28840133.8, disc. loss: 0.3252330332994461
+Epoch 4, batch no. 630, gen. loss: 24608930.6, disc. loss: 0.32517592906951903
+Epoch 4, batch no. 640, gen. loss: 28672409.4, disc. loss: 0.3251758247613907
+Epoch 4, batch no. 650, gen. loss: 24844299.2, disc. loss: 0.32513677179813383
+Epoch 4, batch no. 660, gen. loss: 25821622.2, disc. loss: 0.3251235127449036
+Epoch 4, batch no. 670, gen. loss: 27068867.4, disc. loss: 0.3251220375299454
+Epoch 4, batch no. 680, gen. loss: 24529443.6, disc. loss: 0.3251012027263641
+Epoch 4, batch no. 690, gen. loss: 25418394.6, disc. loss: 0.3251172035932541
+Testing Epoch 4
+Discriminator training/validation loss in epoch 4/5 was 0.3251/0.3252
+Generator GAN training/validation loss in epoch 4/5 was 28189310.6667/26242922.8271
+Average PSNR of validation set in epoch 4/5 was 10.7135
+Average SSIM of validation set in epoch 4/5 was -0.0582
+Average discriminator guess on reals in epoch 4/5 was 0.9042
+Average discriminator guess on fakes in epoch 4/5 was 0.0000
+Training Epoch 5
+Epoch 5, batch no. 10, gen. loss: 29082068.2, disc. loss: 0.3251342743635178
+Epoch 5, batch no. 20, gen. loss: 26849920.4, disc. loss: 0.32513455152511594
+Epoch 5, batch no. 30, gen. loss: 26101926.8, disc. loss: 0.3251774042844772
+Epoch 5, batch no. 40, gen. loss: 28481466.0, disc. loss: 0.327029687166214
+Epoch 5, batch no. 50, gen. loss: 22746088.3, disc. loss: 0.3302145153284073
+Epoch 5, batch no. 60, gen. loss: 22876182.9, disc. loss: 0.33960665166378023
+Epoch 5, batch no. 70, gen. loss: 26646717.4, disc. loss: 0.3320515722036362
+Epoch 5, batch no. 80, gen. loss: 26551336.4, disc. loss: 0.3277332693338394
+Epoch 5, batch no. 90, gen. loss: 26726089.4, disc. loss: 0.32984485626220705
+Epoch 5, batch no. 100, gen. loss: 26729652.0, disc. loss: 0.32825369834899903
+Epoch 5, batch no. 110, gen. loss: 27608139.6, disc. loss: 0.3264103502035141
+Epoch 5, batch no. 120, gen. loss: 26086946.8, disc. loss: 0.3263750672340393
+Epoch 5, batch no. 130, gen. loss: 26255227.8, disc. loss: 0.32609557509422304
+Epoch 5, batch no. 140, gen. loss: 26041033.4, disc. loss: 0.32594114542007446
+Epoch 5, batch no. 150, gen. loss: 24726514.2, disc. loss: 0.3254578858613968
+Epoch 5, batch no. 160, gen. loss: 24100670.8, disc. loss: 0.3253044903278351
+Epoch 5, batch no. 170, gen. loss: 26030178.4, disc. loss: 0.32527720630168916
+Epoch 5, batch no. 180, gen. loss: 21678058.4, disc. loss: 0.3257932126522064
+Epoch 5, batch no. 190, gen. loss: 25599671.6, disc. loss: 0.3255468875169754
+Epoch 5, batch no. 200, gen. loss: 24963369.2, disc. loss: 0.3254060626029968
+Epoch 5, batch no. 210, gen. loss: 27053044.0, disc. loss: 0.3253427267074585
+Epoch 5, batch no. 220, gen. loss: 24779598.0, disc. loss: 0.32522471249103546
+Epoch 5, batch no. 230, gen. loss: 26681249.2, disc. loss: 0.3251507043838501
+Epoch 5, batch no. 240, gen. loss: 25971068.0, disc. loss: 0.32514127492904665
+Epoch 5, batch no. 250, gen. loss: 21560715.2, disc. loss: 0.32613141238689425
+Epoch 5, batch no. 260, gen. loss: 27493012.0, disc. loss: 0.32551760971546173
+Epoch 5, batch no. 270, gen. loss: 24417830.6, disc. loss: 0.32525515258312226
+Epoch 5, batch no. 280, gen. loss: 27556157.8, disc. loss: 0.3252630680799484
+Epoch 5, batch no. 290, gen. loss: 22584157.5, disc. loss: 0.325166118144989
+Epoch 5, batch no. 300, gen. loss: 26789583.6, disc. loss: 0.3251552700996399
+Epoch 5, batch no. 310, gen. loss: 27161515.2, disc. loss: 0.3251705676317215
+Epoch 5, batch no. 320, gen. loss: 23941406.7, disc. loss: 0.32513844668865205
+Epoch 5, batch no. 330, gen. loss: 24360385.0, disc. loss: 0.3251198947429657
+Epoch 5, batch no. 340, gen. loss: 23166976.8, disc. loss: 0.3251514434814453
+Epoch 5, batch no. 350, gen. loss: 21871234.4, disc. loss: 0.3251362442970276
+Epoch 5, batch no. 360, gen. loss: 25722676.4, disc. loss: 0.32512139678001406
+Epoch 5, batch no. 370, gen. loss: 25747771.2, disc. loss: 0.3251193404197693
+Epoch 5, batch no. 380, gen. loss: 26658561.6, disc. loss: 0.3251697778701782
+Epoch 5, batch no. 390, gen. loss: 22110652.9, disc. loss: 0.32511073648929595
+Epoch 5, batch no. 400, gen. loss: 23840692.8, disc. loss: 0.3251409322023392
+Epoch 5, batch no. 410, gen. loss: 27192149.2, disc. loss: 0.32532228231430055
+Epoch 5, batch no. 420, gen. loss: 25669230.0, disc. loss: 0.327507358789444
+Epoch 5, batch no. 430, gen. loss: 23412708.4, disc. loss: 0.3266390264034271
+Epoch 5, batch no. 440, gen. loss: 22040212.0, disc. loss: 0.32675819396972655
+Epoch 5, batch no. 450, gen. loss: 23130645.5, disc. loss: 0.3256762444972992
+Epoch 5, batch no. 460, gen. loss: 20643211.3, disc. loss: 0.3256900131702423
+Epoch 5, batch no. 470, gen. loss: 23103257.9, disc. loss: 0.32574893832206725
+Epoch 5, batch no. 480, gen. loss: 20678187.5, disc. loss: 0.32570691406726837
+Epoch 5, batch no. 490, gen. loss: 24798672.2, disc. loss: 0.32711499333381655
+Epoch 5, batch no. 500, gen. loss: 22214749.3, disc. loss: 0.32562158703804017
+Epoch 5, batch no. 510, gen. loss: 23300570.4, disc. loss: 0.3253067284822464
+Epoch 5, batch no. 520, gen. loss: 24815054.6, disc. loss: 0.3266673654317856
+Epoch 5, batch no. 530, gen. loss: 20987123.6, disc. loss: 0.32716823518276217
+Epoch 5, batch no. 540, gen. loss: 25136327.4, disc. loss: 0.32562742233276365
+Epoch 5, batch no. 550, gen. loss: 25569135.4, disc. loss: 0.32522794902324675
+Epoch 5, batch no. 560, gen. loss: 21155645.1, disc. loss: 0.3251327842473984
+Epoch 5, batch no. 570, gen. loss: 24655255.8, disc. loss: 0.3251505732536316
+Epoch 5, batch no. 580, gen. loss: 22430438.2, disc. loss: 0.3252259761095047
+Epoch 5, batch no. 590, gen. loss: 24291146.8, disc. loss: 0.3251741260290146
+Epoch 5, batch no. 600, gen. loss: 22181034.8, disc. loss: 0.3252713829278946
+Epoch 5, batch no. 610, gen. loss: 20491370.9, disc. loss: 0.3252297967672348
+Epoch 5, batch no. 620, gen. loss: 22044457.0, disc. loss: 0.3251446455717087
+Epoch 5, batch no. 630, gen. loss: 22150957.6, disc. loss: 0.3251649022102356
+Epoch 5, batch no. 640, gen. loss: 21563530.4, disc. loss: 0.32514405250549316
+Epoch 5, batch no. 650, gen. loss: 22721058.1, disc. loss: 0.325164732336998
+Epoch 5, batch no. 660, gen. loss: 23366484.4, disc. loss: 0.3251642227172852
+Epoch 5, batch no. 670, gen. loss: 21086411.7, disc. loss: 0.32575753331184387
+Epoch 5, batch no. 680, gen. loss: 20727934.1, disc. loss: 0.32523963153362273
+Epoch 5, batch no. 690, gen. loss: 23195051.9, disc. loss: 0.3251841813325882
+Testing Epoch 5
+Discriminator training/validation loss in epoch 5/5 was 0.3260/0.3252
+Generator GAN training/validation loss in epoch 5/5 was 24336185.0429/21841073.5943
+Average PSNR of validation set in epoch 5/5 was 11.3085
+Average SSIM of validation set in epoch 5/5 was -0.0088
+Average discriminator guess on reals in epoch 5/5 was 0.9009
+Average discriminator guess on fakes in epoch 5/5 was 0.0001

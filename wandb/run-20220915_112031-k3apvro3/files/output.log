@@ -1,0 +1,27 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 0
+Trained batch 610 in epoch 0, gen_loss = 0.9931689745665767, disc_loss = 0.04208640455010724
+Testing Epoch 0
+Traceback (most recent call last):
+  File "esrgan_bones.py", line 368, in <module>
+    gen_hr = generator(imgs_lr)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "esrgan_bones.py", line 228, in forward
+    trunk = self.trunk_conv(self.RRDB_trunk(fea))
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "esrgan_bones.py", line 204, in forward
+    out = self.RDB1(x)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "esrgan_bones.py", line 189, in forward
+    x4 = self.lrelu(self.conv4(torch.cat((x, x1, x2, x3), 1)))
+RuntimeError: CUDA out of memory. Tried to allocate 72.00 MiB (GPU 0; 31.75 GiB total capacity; 27.89 GiB already allocated; 69.69 MiB free; 30.53 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

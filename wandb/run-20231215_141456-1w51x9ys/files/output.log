@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "esrgan_bones_v3-5.py", line 121, in <module>
+    train_dataloader = DataLoader(SliceData(img_paths_train), batch_size=batch_size, drop_last=True, shuffle=True, num_workers=4)
+  File "/work3/soeba/HALOS/datasets.py", line 85, in __init__
+    self.num_slices_total = np.sum(n for n in slice_nos)
+NameError: name 'slice_nos' is not defined

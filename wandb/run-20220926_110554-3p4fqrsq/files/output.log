@@ -1,0 +1,64 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 0
+Trained batch 745 in epoch 0, gen_loss = 1.5080786563915478, disc_loss = 0.028265987476708502
+Testing Epoch 0
+Training Epoch 1
+Trained batch 745 in epoch 1, gen_loss = 1.4186465248026094, disc_loss = 0.0011295948578865609
+Testing Epoch 1
+Training Epoch 2
+Trained batch 745 in epoch 2, gen_loss = 1.4617095277232715, disc_loss = 0.023647091661448197
+Testing Epoch 2
+Training Epoch 3
+Trained batch 745 in epoch 3, gen_loss = 1.4533774076933517, disc_loss = 0.0170180181784717
+Testing Epoch 3
+Training Epoch 4
+Trained batch 745 in epoch 4, gen_loss = 1.2003028348847304, disc_loss = 0.09816667045876708
+Testing Epoch 4
+Training Epoch 5
+Trained batch 745 in epoch 5, gen_loss = 1.4015380367037438, disc_loss = 0.01164351669767492
+Testing Epoch 5
+Training Epoch 6
+Trained batch 745 in epoch 6, gen_loss = 1.4105120468235528, disc_loss = 0.006055274440951573
+Testing Epoch 6
+Training Epoch 7
+Trained batch 745 in epoch 7, gen_loss = 1.4079007103679646, disc_loss = 0.0013735382179039888
+Testing Epoch 7
+Training Epoch 8
+Trained batch 745 in epoch 8, gen_loss = 1.3870325077315118, disc_loss = 0.011876189917734519
+Testing Epoch 8
+Training Epoch 9
+Trained batch 745 in epoch 9, gen_loss = 1.398121091180129, disc_loss = 0.015594621663026751
+Testing Epoch 9
+Training Epoch 10
+Trained batch 745 in epoch 10, gen_loss = 1.3750623758612626, disc_loss = 0.001683643630564312
+Testing Epoch 10
+Training Epoch 11
+Trained batch 745 in epoch 11, gen_loss = 1.4021950515121941, disc_loss = 0.007758878921355238
+Testing Epoch 11
+Training Epoch 12
+Trained batch 745 in epoch 12, gen_loss = 1.3735662775448756, disc_loss = 0.00015458738136082769
+Testing Epoch 12
+Training Epoch 13
+Trained batch 745 in epoch 13, gen_loss = 1.3889436413391665, disc_loss = 0.0054567630370792024
+Testing Epoch 13
+Training Epoch 14
+Trained batch 745 in epoch 14, gen_loss = 1.4014464274008855, disc_loss = 0.002770818479927338
+Testing Epoch 14
+Training Epoch 15
+Trained batch 745 in epoch 15, gen_loss = 1.3885543948843395, disc_loss = 0.0002363821277445998
+Testing Epoch 15
+Training Epoch 16
+Trained batch 745 in epoch 16, gen_loss = 1.4045210018074865, disc_loss = 0.003911066396276925
+Testing Epoch 16
+Training Epoch 17
+Trained batch 745 in epoch 17, gen_loss = 1.3820756096942175, disc_loss = 0.0002656111144841116
+Testing Epoch 17
+Training Epoch 18
+Trained batch 745 in epoch 18, gen_loss = 1.3625247317089153, disc_loss = 0.0001676898597002366
+Testing Epoch 18
+Training Epoch 19
+Trained batch 745 in epoch 19, gen_loss = 1.3841856245061348, disc_loss = 0.02351023972634438
+Testing Epoch 19

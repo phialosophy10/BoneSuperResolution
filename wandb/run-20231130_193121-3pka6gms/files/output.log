@@ -1,0 +1,27 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 1
+Traceback (most recent call last):
+  File "esrgan_bones_v4-1.py", line 208, in <module>
+    fake_hr = generator(imgs_lr)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/models.py", line 53, in forward
+    z = self.dense_block3(comp)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/models.py", line 80, in forward
+    x2 = self.dense_unit2(skip1)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/models.py", line 97, in forward
+    return self.conv0(self.act0(self.norm0(x)))
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 514, in forward
+    return F.elu(input, self.alpha, self.inplace)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/functional.py", line 1549, in elu
+    result = torch._C._nn.elu(input, alpha)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB (GPU 0; 79.15 GiB total capacity; 74.88 GiB already allocated; 1.43 GiB free; 76.07 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,88 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 1
+Epoch 1, batch no. 10, gen. loss: nan, disc. loss: 0.39913293719291687
+Epoch 1, batch no. 20, gen. loss: nan, disc. loss: 0.3894636929035187
+Epoch 1, batch no. 30, gen. loss: nan, disc. loss: 0.3724284768104553
+Epoch 1, batch no. 40, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 50, gen. loss: nan, disc. loss: 0.32801032066345215
+Epoch 1, batch no. 60, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 70, gen. loss: nan, disc. loss: 0.33739471435546875
+Epoch 1, batch no. 80, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 90, gen. loss: nan, disc. loss: 0.39054664969444275
+Epoch 1, batch no. 100, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 110, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 120, gen. loss: nan, disc. loss: 0.44157832860946655
+Epoch 1, batch no. 130, gen. loss: nan, disc. loss: 0.4353105425834656
+Epoch 1, batch no. 140, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 150, gen. loss: nan, disc. loss: 0.45830869674682617
+Epoch 1, batch no. 160, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 170, gen. loss: nan, disc. loss: 0.4380239248275757
+Epoch 1, batch no. 180, gen. loss: nan, disc. loss: 0.4189937114715576
+Epoch 1, batch no. 190, gen. loss: nan, disc. loss: 0.44226810336112976
+Epoch 1, batch no. 200, gen. loss: nan, disc. loss: 0.42004650831222534
+Epoch 1, batch no. 210, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 220, gen. loss: nan, disc. loss: 0.429432213306427
+Epoch 1, batch no. 230, gen. loss: nan, disc. loss: 0.454449862241745
+Epoch 1, batch no. 240, gen. loss: nan, disc. loss: 0.44910478591918945
+Epoch 1, batch no. 250, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 260, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 270, gen. loss: nan, disc. loss: 0.43054476380348206
+Epoch 1, batch no. 280, gen. loss: nan, disc. loss: 0.42576736211776733
+Epoch 1, batch no. 290, gen. loss: nan, disc. loss: 0.43868717551231384
+Epoch 1, batch no. 300, gen. loss: nan, disc. loss: 0.4337347745895386
+Epoch 1, batch no. 310, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 320, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 330, gen. loss: nan, disc. loss: 0.4488982558250427
+Epoch 1, batch no. 340, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 350, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 360, gen. loss: nan, disc. loss: 0.4176985025405884
+Epoch 1, batch no. 370, gen. loss: nan, disc. loss: 0.4680033326148987
+Epoch 1, batch no. 380, gen. loss: nan, disc. loss: 0.4654296934604645
+Epoch 1, batch no. 390, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 400, gen. loss: nan, disc. loss: 0.42862269282341003
+Epoch 1, batch no. 410, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 420, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 430, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 440, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 450, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 460, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 470, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 480, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 490, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 500, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 510, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 520, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 530, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 540, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 550, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 560, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 570, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 580, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 590, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 600, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 610, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 620, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 630, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 640, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 650, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 660, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 670, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 680, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 690, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 700, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 710, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 720, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 730, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 740, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 750, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 760, gen. loss: nan, disc. loss: nan
+Testing Epoch 1
+Discriminator training/validation loss in epoch 1/1 was nan/nan
+Generator GAN training/validation loss in epoch 1/1 was nan/nan
+Average PSNR of validation set in epoch 1/1 was 7.8873
+Average SSIM of validation set in epoch 1/1 was -0.0097
+Average discriminator guess on reals in epoch 1/1 was nan
+Average discriminator guess on fakes in epoch 1/1 was nan

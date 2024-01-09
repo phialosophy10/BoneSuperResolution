@@ -1,0 +1,214 @@
+2023-12-19 16:00:48,599 INFO    StreamThr :7177 [internal.py:wandb_internal():90] W&B internal server running at pid: 7177, started at: 2023-12-19 16:00:48.597669
+2023-12-19 16:00:48,601 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: status
+2023-12-19 16:00:48,631 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: status
+2023-12-19 16:00:48,636 DEBUG   SenderThread:7177 [sender.py:send():302] send: header
+2023-12-19 16:00:48,636 INFO    WriterThread:7177 [datastore.py:open_for_write():75] open: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/run-166wv478.wandb
+2023-12-19 16:00:48,639 DEBUG   SenderThread:7177 [sender.py:send():302] send: run
+2023-12-19 16:00:49,194 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: check_version
+2023-12-19 16:00:49,205 INFO    SenderThread:7177 [dir_watcher.py:__init__():216] watching files in: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files
+2023-12-19 16:00:49,206 INFO    SenderThread:7177 [sender.py:_start_run_threads():913] run started: 166wv478 with start time 1702998048.622418
+2023-12-19 16:00:49,207 DEBUG   SenderThread:7177 [sender.py:send():302] send: summary
+2023-12-19 16:00:49,209 INFO    SenderThread:7177 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-12-19 16:00:49,210 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: check_version
+2023-12-19 16:00:49,305 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: run_start
+2023-12-19 16:00:49,327 DEBUG   HandlerThread:7177 [meta.py:__init__():35] meta init
+2023-12-19 16:00:49,328 DEBUG   HandlerThread:7177 [meta.py:__init__():50] meta init done
+2023-12-19 16:00:49,328 DEBUG   HandlerThread:7177 [meta.py:probe():216] probe
+2023-12-19 16:00:49,337 DEBUG   HandlerThread:7177 [git.py:repo():40] git repository is invalid
+2023-12-19 16:00:49,337 DEBUG   HandlerThread:7177 [meta.py:_save_pip():54] save pip
+2023-12-19 16:00:49,340 DEBUG   HandlerThread:7177 [meta.py:_save_pip():68] save pip done
+2023-12-19 16:00:49,341 DEBUG   HandlerThread:7177 [meta.py:probe():254] probe done
+2023-12-19 16:00:49,664 DEBUG   SenderThread:7177 [sender.py:send():302] send: files
+2023-12-19 16:00:49,665 INFO    SenderThread:7177 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2023-12-19 16:00:49,676 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:00:49,677 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:00:49,948 DEBUG   SenderThread:7177 [sender.py:send():302] send: telemetry
+2023-12-19 16:00:49,949 DEBUG   SenderThread:7177 [sender.py:send():302] send: telemetry
+2023-12-19 16:00:49,949 DEBUG   SenderThread:7177 [sender.py:send():302] send: run
+2023-12-19 16:00:50,196 INFO    SenderThread:7177 [sender.py:send_run():797] updated run: 166wv478
+2023-12-19 16:00:50,196 DEBUG   SenderThread:7177 [sender.py:send():302] send: config
+2023-12-19 16:00:50,207 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/config.yaml
+2023-12-19 16:00:50,208 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/wandb-metadata.json
+2023-12-19 16:00:50,208 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/requirements.txt
+2023-12-19 16:00:50,209 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/wandb-summary.json
+2023-12-19 16:00:50,348 INFO    Thread-16 :7177 [upload_job.py:push():138] Uploaded file /tmp/tmpqzffd7rkwandb/1fak3eim-wandb-metadata.json
+2023-12-19 16:01:04,949 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:01:04,950 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:01:17,535 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:01:20,245 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:01:20,246 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:01:20,272 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/config.yaml
+2023-12-19 16:01:35,545 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:01:35,546 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:01:47,747 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:01:50,847 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:01:50,848 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:02:06,145 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:02:06,146 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:02:17,963 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:02:21,393 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:02:21,394 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:02:36,692 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:02:36,693 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:02:48,173 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:02:52,001 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:02:52,002 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:03:07,303 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:03:07,304 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:03:18,379 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:03:22,551 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:03:22,552 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:03:37,770 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:03:37,771 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:03:48,594 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:03:52,995 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:03:52,996 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:04:08,307 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:04:08,307 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:04:18,801 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:04:23,580 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:04:23,581 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:04:38,861 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:04:38,862 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:04:49,011 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:04:54,169 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:04:54,170 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:05:09,383 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:05:09,383 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:05:19,221 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:05:24,753 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:05:24,754 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:05:40,024 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:05:40,025 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:05:41,834 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/output.log
+2023-12-19 16:05:43,841 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/output.log
+2023-12-19 16:05:49,430 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:05:55,311 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: stop_status
+2023-12-19 16:05:55,312 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: stop_status
+2023-12-19 16:05:56,671 DEBUG   SenderThread:7177 [sender.py:send():302] send: exit
+2023-12-19 16:05:56,671 INFO    SenderThread:7177 [sender.py:send_exit():438] handling exit code: 1
+2023-12-19 16:05:56,672 INFO    SenderThread:7177 [sender.py:send_exit():440] handling runtime: 307
+2023-12-19 16:05:56,672 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:56,674 INFO    SenderThread:7177 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-12-19 16:05:56,675 INFO    SenderThread:7177 [sender.py:send_exit():446] send defer
+2023-12-19 16:05:56,676 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:56,676 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:56,677 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 0
+2023-12-19 16:05:56,677 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:56,678 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 0
+2023-12-19 16:05:56,679 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 1
+2023-12-19 16:05:56,679 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:56,680 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 1
+2023-12-19 16:05:56,782 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:56,782 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:56,782 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 1
+2023-12-19 16:05:56,784 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 2
+2023-12-19 16:05:56,784 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:56,784 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:56,785 DEBUG   SenderThread:7177 [sender.py:send():302] send: stats
+2023-12-19 16:05:56,785 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 2
+2023-12-19 16:05:56,786 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:56,787 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 2
+2023-12-19 16:05:56,787 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 3
+2023-12-19 16:05:56,788 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:56,789 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 3
+2023-12-19 16:05:56,789 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:56,790 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 3
+2023-12-19 16:05:56,791 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 4
+2023-12-19 16:05:56,791 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:56,792 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 4
+2023-12-19 16:05:56,792 DEBUG   SenderThread:7177 [sender.py:send():302] send: summary
+2023-12-19 16:05:56,795 INFO    SenderThread:7177 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-12-19 16:05:56,796 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:56,796 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 4
+2023-12-19 16:05:56,797 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 5
+2023-12-19 16:05:56,797 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:56,798 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 5
+2023-12-19 16:05:56,798 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:56,799 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 5
+2023-12-19 16:05:56,799 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 6
+2023-12-19 16:05:56,800 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:56,801 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 6
+2023-12-19 16:05:56,801 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:56,802 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 6
+2023-12-19 16:05:56,880 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/wandb-summary.json
+2023-12-19 16:05:56,886 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:57,884 INFO    Thread-12 :7177 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/output.log
+2023-12-19 16:05:58,080 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 7
+2023-12-19 16:05:58,080 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:58,081 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:58,082 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 7
+2023-12-19 16:05:58,082 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:58,083 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 7
+2023-12-19 16:05:58,083 INFO    SenderThread:7177 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-12-19 16:05:58,182 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:58,887 INFO    SenderThread:7177 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/output.log
+2023-12-19 16:05:58,888 INFO    SenderThread:7177 [dir_watcher.py:finish():392] scan: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files
+2023-12-19 16:05:58,889 INFO    SenderThread:7177 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/output.log output.log
+2023-12-19 16:05:58,890 INFO    SenderThread:7177 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/requirements.txt requirements.txt
+2023-12-19 16:05:58,894 INFO    SenderThread:7177 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/wandb-metadata.json wandb-metadata.json
+2023-12-19 16:05:58,896 INFO    SenderThread:7177 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/config.yaml config.yaml
+2023-12-19 16:05:58,898 INFO    SenderThread:7177 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/wandb-summary.json wandb-summary.json
+2023-12-19 16:05:58,901 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 8
+2023-12-19 16:05:58,904 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:58,904 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:58,905 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 8
+2023-12-19 16:05:58,906 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:58,906 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 8
+2023-12-19 16:05:58,907 INFO    SenderThread:7177 [file_pusher.py:finish():171] shutting down file pusher
+2023-12-19 16:05:59,006 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,007 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,109 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,110 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,212 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,213 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,315 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,316 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,418 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,418 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,516 INFO    Thread-17 :7177 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/output.log
+2023-12-19 16:05:59,520 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,521 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,580 INFO    Thread-19 :7177 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/config.yaml
+2023-12-19 16:05:59,609 INFO    Thread-18 :7177 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/requirements.txt
+2023-12-19 16:05:59,623 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,624 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,628 INFO    Thread-20 :7177 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/files/wandb-summary.json
+2023-12-19 16:05:59,726 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,727 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,829 INFO    Thread-11 :7177 [sender.py:transition_state():459] send defer: 9
+2023-12-19 16:05:59,829 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:05:59,830 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:05:59,830 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:05:59,831 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 9
+2023-12-19 16:05:59,832 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:05:59,832 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 9
+2023-12-19 16:05:59,932 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:06:00,365 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 10
+2023-12-19 16:06:00,366 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:06:00,366 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:06:00,367 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 10
+2023-12-19 16:06:00,368 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:06:00,369 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 10
+2023-12-19 16:06:00,369 INFO    SenderThread:7177 [sender.py:transition_state():459] send defer: 11
+2023-12-19 16:06:00,370 DEBUG   SenderThread:7177 [sender.py:send():302] send: final
+2023-12-19 16:06:00,370 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: defer
+2023-12-19 16:06:00,370 DEBUG   SenderThread:7177 [sender.py:send():302] send: footer
+2023-12-19 16:06:00,371 INFO    HandlerThread:7177 [handler.py:handle_request_defer():164] handle defer: 11
+2023-12-19 16:06:00,372 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: defer
+2023-12-19 16:06:00,372 INFO    SenderThread:7177 [sender.py:send_request_defer():455] handle sender defer: 11
+2023-12-19 16:06:00,468 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: poll_exit
+2023-12-19 16:06:00,469 DEBUG   SenderThread:7177 [sender.py:send_request():316] send_request: poll_exit
+2023-12-19 16:06:00,470 INFO    SenderThread:7177 [file_pusher.py:join():176] waiting for file pusher
+2023-12-19 16:06:00,952 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: sampled_history
+2023-12-19 16:06:00,953 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: get_summary
+2023-12-19 16:06:00,954 INFO    MainThread:7177 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2023-12-19 16:06:00,954 INFO    MainThread:7177 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2023-12-19 16:06:00,955 INFO    MainThread:7177 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2023-12-19 16:06:00,957 DEBUG   HandlerThread:7177 [handler.py:handle_request():141] handle_request: shutdown
+2023-12-19 16:06:00,957 INFO    HandlerThread:7177 [handler.py:finish():810] shutting down handler
+2023-12-19 16:06:01,370 INFO    WriterThread:7177 [datastore.py:close():279] close: /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478/run-166wv478.wandb
+2023-12-19 16:06:01,850 INFO    SenderThread:7177 [sender.py:finish():1312] shutting down sender
+2023-12-19 16:06:01,850 INFO    SenderThread:7177 [file_pusher.py:finish():171] shutting down file pusher
+2023-12-19 16:06:01,851 INFO    SenderThread:7177 [file_pusher.py:join():176] waiting for file pusher
+2023-12-19 16:06:01,959 INFO    MainThread:7177 [internal.py:handle_exit():80] Internal process exited

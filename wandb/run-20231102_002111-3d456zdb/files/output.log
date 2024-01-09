@@ -1,0 +1,15 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 1
+Traceback (most recent call last):
+  File "esrgan_bones_v3-1.py", line 183, in <module>
+    loss_real = criterion_GAN(pred_real - pred_fake.mean(0, keepdim=True), valid)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 714, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/functional.py", line 3150, in binary_cross_entropy_with_logits
+    return torch.binary_cross_entropy_with_logits(input, target, weight, pos_weight, reduction_enum)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "esrgan_bones_v3-1.py", line 132, in <module>
+    discriminator = Discriminator2D(input_shape=(1, *hr_shape))
+  File "/work3/soeba/HALOS/models.py", line 290, in __init__
+    in_filters = in_channels
+NameError: name 'in_channels' is not defined

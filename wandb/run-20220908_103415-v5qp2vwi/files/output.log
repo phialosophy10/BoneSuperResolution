@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "srgan_bones.py", line 80, in <module>
+    })
+NameError: name 'res_type' is not defined

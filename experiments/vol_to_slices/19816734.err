@@ -1,0 +1,13 @@
+Loaded dependency [python3/3.8.9]: gcc/9.3.1-binutils-2.36.1
+Loaded module: python3/3.8.9
+
+Loading python3/3.8.9
+  Loading requirement: gcc/9.3.1-binutils-2.36.1
+Loaded dependency [numpy/1.19.5-python-3.8.9-openblas-0.3.13]: openblas/0.3.13
+Loaded module: numpy/1.19.5-python-3.8.9-openblas-0.3.13
+
+Loading numpy/1.19.5-python-3.8.9-openblas-0.3.13
+  Loading requirement: openblas/0.3.13
+Loaded module: scipy/1.5.4-python-3.8.9
+Loaded module: cuda/11.3
+/zhome/19/0/64415/.lsbatch/1703064362.19816734.shell: line 20: 20830 Killed                  python -u vol_to_slices_uniform.py "001" "002" "013" "015" "021" "026" "031" "074" "075" "083" "086" "138" "164" "172"

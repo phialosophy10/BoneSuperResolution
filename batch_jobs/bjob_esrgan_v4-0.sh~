@@ -1,0 +1,28 @@
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -J esrgan
+#BSUB -n 4
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -W 24:00
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=16GB]"
+#BSUB -R "select[gpu32gb]"
+#BSUB -o /work3/soeba/HALOS/experiments/esrgan/train_%J.out
+#BSUB -e /work3/soeba/HALOS/experiments/esrgan/train_%J.err
+
+cd ..
+
+source init.sh
+
+# args: 
+# n_epochs (int)
+# batch_size (int)
+# learning rate (float)
+# loss-coefficient, adversarial (float)
+# loss-coefficient, pixel (float)
+# number of warmup-batches with only pixel-wise loss (int)
+# femur to test on (str)
+# femur(s) to train on (str)
+# femurs: {"001","002","013","015","021","026","074","075","083","086","138","164","172"}
+
+python -u esrgan_bones_v4-0.py

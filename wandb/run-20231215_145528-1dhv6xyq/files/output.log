@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "esrgan_bones_v3-5.py", line 122, in <module>
+    test_dataloader = DataLoader(SliceData(img_paths_test), batch_size=batch_size, drop_last=False, shuffle=True, num_workers=4)
+  File "/work3/soeba/HALOS/datasets.py", line 77, in __init__
+    hr_volume = np.load(file_paths[i][0])
+  File "/appl/numpy/1.19.5-python-3.8.9-openblas-0.3.13/lib/python3.8/site-packages/numpy-1.19.5-py3.8-linux-x86_64.egg/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/dtu/3d-imaging-center/projects/2022_QIM_52_Bone/analysis/femur_001/micro/volume/f_083.npy'

@@ -1,0 +1,18 @@
+{
+    "os": "Linux-3.10.0-1160.76.1.el7.x86_64-x86_64-with-glibc2.2.5",
+    "python": "3.8.9",
+    "heartbeatAt": "2022-09-13T10:25:29.586000",
+    "startedAt": "2022-09-13T10:25:28.937258",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "srgan_bones.py",
+    "codePath": "srgan_bones.py",
+    "host": "n-62-11-16",
+    "username": "soeba",
+    "executable": "/work3/soeba/HALOS/halos/bin/python"
+}
