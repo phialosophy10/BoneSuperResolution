@@ -1,0 +1,32 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 1
+Testing Epoch 1
+Training Epoch 2
+Testing Epoch 2
+
+Training Epoch 3
+Testing Epoch 3
+Training Epoch 4
+Testing Epoch 4
+Training Epoch 5
+Epoch 5, batch no. 270, gen. loss: 5.8860335930025334e+23, disc. loss: 0.9367712378501892
+Epoch 5, batch no. 280, gen. loss: 6.051027663935236e+23, disc. loss: 0.7178717270493508
+Epoch 5, batch no. 290, gen. loss: 6.207357808271115e+23, disc. loss: 0.6183279832204183
+Epoch 5, batch no. 300, gen. loss: 6.314564032605372e+23, disc. loss: 0.560936352610588
+Epoch 5, batch no. 310, gen. loss: 6.420909116470098e+23, disc. loss: 0.5227229988574982
+Epoch 5, batch no. 320, gen. loss: 6.591243349030952e+23, disc. loss: 0.49550249030192695
+Epoch 5, batch no. 330, gen. loss: 6.660592565404413e+23, disc. loss: 0.4750815110547202
+Epoch 5, batch no. 340, gen. loss: 6.851247360103954e+23, disc. loss: 0.4591761685907841
+Epoch 5, batch no. 350, gen. loss: 6.926210267782378e+23, disc. loss: 0.4464645163880454
+Epoch 5, batch no. 360, gen. loss: 6.963385394219861e+23, disc. loss: 0.43602277994155886
+Epoch 5, batch no. 370, gen. loss: 7.01849245502897e+23, disc. loss: 0.42728249701586635
+Epoch 5, batch no. 380, gen. loss: 7.116654679773412e+23, disc. loss: 0.4198634554942449
+Epoch 5, batch no. 390, gen. loss: 7.163823580743089e+23, disc. loss: 0.4134825770671551
+Epoch 5, batch no. 400, gen. loss: 7.185450269142716e+23, disc. loss: 0.4079444606389318
+Epoch 5, batch no. 410, gen. loss: 7.246953462355365e+23, disc. loss: 0.40307469050089517
+Epoch 5, batch no. 420, gen. loss: 7.353171062179687e+23, disc. loss: 0.39875683430582287
+Epoch 5, batch no. 430, gen. loss: 7.406169931663904e+23, disc. loss: 0.3949084113625919
+Testing Epoch 5

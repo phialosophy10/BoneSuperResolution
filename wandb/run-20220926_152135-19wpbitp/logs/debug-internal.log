@@ -1,0 +1,988 @@
+2022-09-26 15:21:35,790 INFO    StreamThr :31534 [internal.py:wandb_internal():90] W&B internal server running at pid: 31534, started at: 2022-09-26 15:21:35.788107
+2022-09-26 15:21:35,793 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: status
+2022-09-26 15:21:35,796 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: status
+2022-09-26 15:21:35,810 DEBUG   SenderThread:31534 [sender.py:send():302] send: header
+2022-09-26 15:21:35,810 INFO    WriterThread:31534 [datastore.py:open_for_write():75] open: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/run-19wpbitp.wandb
+2022-09-26 15:21:35,815 DEBUG   SenderThread:31534 [sender.py:send():302] send: run
+2022-09-26 15:21:36,244 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: check_version
+2022-09-26 15:21:36,264 INFO    SenderThread:31534 [dir_watcher.py:__init__():216] watching files in: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files
+2022-09-26 15:21:36,266 INFO    SenderThread:31534 [sender.py:_start_run_threads():913] run started: 19wpbitp with start time 1664198495.798815
+2022-09-26 15:21:36,267 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:21:36,271 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:21:36,272 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: check_version
+2022-09-26 15:21:36,384 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: run_start
+2022-09-26 15:21:36,391 DEBUG   HandlerThread:31534 [meta.py:__init__():35] meta init
+2022-09-26 15:21:36,392 DEBUG   HandlerThread:31534 [meta.py:__init__():50] meta init done
+2022-09-26 15:21:36,393 DEBUG   HandlerThread:31534 [meta.py:probe():216] probe
+2022-09-26 15:21:36,402 DEBUG   HandlerThread:31534 [git.py:repo():40] git repository is invalid
+2022-09-26 15:21:36,402 DEBUG   HandlerThread:31534 [meta.py:_save_pip():54] save pip
+2022-09-26 15:21:36,405 DEBUG   HandlerThread:31534 [meta.py:_save_pip():68] save pip done
+2022-09-26 15:21:36,406 DEBUG   HandlerThread:31534 [meta.py:probe():254] probe done
+2022-09-26 15:21:37,003 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:21:37,004 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-26 15:21:37,016 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:21:37,018 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:21:37,273 DEBUG   SenderThread:31534 [sender.py:send():302] send: telemetry
+2022-09-26 15:21:37,275 DEBUG   SenderThread:31534 [sender.py:send():302] send: telemetry
+2022-09-26 15:21:37,276 DEBUG   SenderThread:31534 [sender.py:send():302] send: run
+2022-09-26 15:21:37,275 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:21:37,301 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-metadata.json
+2022-09-26 15:21:37,303 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/requirements.txt
+2022-09-26 15:21:37,498 INFO    SenderThread:31534 [sender.py:send_run():797] updated run: 19wpbitp
+2022-09-26 15:21:37,500 DEBUG   SenderThread:31534 [sender.py:send():302] send: config
+2022-09-26 15:21:37,679 INFO    Thread-16 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3794tvt3-wandb-metadata.json
+2022-09-26 15:21:38,278 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/config.yaml
+2022-09-26 15:21:45,303 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:21:47,310 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:21:52,275 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:21:52,276 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:22:04,695 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:22:07,360 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/config.yaml
+2022-09-26 15:22:07,481 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:22:07,482 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:22:22,670 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:22:22,675 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:22:35,013 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:22:37,868 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:22:37,869 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:22:53,054 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:22:53,055 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:22:55,511 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:23:03,938 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:23:03,939 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_0_6f79f47a559b2237ad30.png with policy now
+2022-09-26 15:23:03,978 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:23:03,979 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:23:03,979 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:23:03,982 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:23:04,446 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:23:04,446 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_1_9a00066e7c19f64f3a25.png with policy now
+2022-09-26 15:23:04,446 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:23:04,448 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:23:04,449 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:23:04,451 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:23:04,491 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:23:04,492 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:23:04,494 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:23:04,499 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:23:04,539 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:23:04,540 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_1_9a00066e7c19f64f3a25.png
+2022-09-26 15:23:04,541 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_0_6f79f47a559b2237ad30.png
+2022-09-26 15:23:04,543 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:23:04,543 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media
+2022-09-26 15:23:04,820 INFO    Thread-17 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/13i57lt7-media/images/images_0_6f79f47a559b2237ad30.png
+2022-09-26 15:23:05,307 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:23:05,348 INFO    Thread-18 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/qh69te5q-media/images/thickness and histograms_1_9a00066e7c19f64f3a25.png
+2022-09-26 15:23:05,555 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:23:06,293 INFO    Thread-19 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/kjaij7i9-media/images/images_0_6f79f47a559b2237ad30.png
+2022-09-26 15:23:07,212 INFO    Thread-20 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/31uh7swy-media/images/thickness and histograms_1_9a00066e7c19f64f3a25.png
+2022-09-26 15:23:08,381 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:23:08,382 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:23:23,567 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:23:23,567 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:23:35,639 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:23:38,756 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:23:38,761 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:23:53,952 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:23:53,953 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:24:05,985 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:24:09,140 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:24:09,140 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:24:09,883 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:24:17,569 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:24:17,569 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_3_a921fa44a7ec560fca9e.png with policy now
+2022-09-26 15:24:17,569 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:24:17,571 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:24:17,572 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:24:17,575 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:24:17,921 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:24:17,922 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_3_a921fa44a7ec560fca9e.png
+2022-09-26 15:24:17,924 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:24:18,028 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:24:18,029 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_4_3e9e78baa05ce62dcef5.png with policy now
+2022-09-26 15:24:18,029 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:24:18,030 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:24:18,031 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:24:18,034 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:24:18,068 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:24:18,070 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:24:18,071 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:24:18,074 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:24:18,495 INFO    Thread-21 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/mi899elj-media/images/images_3_a921fa44a7ec560fca9e.png
+2022-09-26 15:24:18,926 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:24:18,927 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_4_3e9e78baa05ce62dcef5.png
+2022-09-26 15:24:18,928 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:24:18,961 INFO    Thread-22 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/391ltnta-media/images/thickness and histograms_4_3e9e78baa05ce62dcef5.png
+2022-09-26 15:24:19,439 INFO    Thread-23 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1tvd6l2y-media/images/images_3_a921fa44a7ec560fca9e.png
+2022-09-26 15:24:19,929 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:24:20,277 INFO    Thread-24 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/2ww3rytp-media/images/thickness and histograms_4_3e9e78baa05ce62dcef5.png
+2022-09-26 15:24:24,330 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:24:24,331 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:24:36,270 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:24:39,521 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:24:39,522 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:24:54,711 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:24:54,712 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:25:06,602 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:25:09,913 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:25:09,914 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:25:24,233 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:25:25,099 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:25:25,100 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:25:33,513 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:25:33,514 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_6_b2a2daa5323a925ce1f6.png with policy now
+2022-09-26 15:25:33,514 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:25:33,516 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:25:33,517 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:25:33,520 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:25:33,960 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:25:33,963 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_7_b6bce8bba412b3b8ea26.png with policy now
+2022-09-26 15:25:33,962 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:25:33,966 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:25:33,967 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:25:33,969 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:25:34,008 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:25:34,009 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:25:34,011 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:25:34,013 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:25:34,275 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:25:34,276 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_6_b2a2daa5323a925ce1f6.png
+2022-09-26 15:25:34,278 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_7_b6bce8bba412b3b8ea26.png
+2022-09-26 15:25:34,279 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:25:34,503 INFO    Thread-25 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/darnspse-media/images/images_6_b2a2daa5323a925ce1f6.png
+2022-09-26 15:25:34,674 INFO    Thread-26 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1rnqwzk5-media/images/thickness and histograms_7_b6bce8bba412b3b8ea26.png
+2022-09-26 15:25:35,405 INFO    Thread-28 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1g5ik517-media/images/thickness and histograms_7_b6bce8bba412b3b8ea26.png
+2022-09-26 15:25:35,822 INFO    Thread-27 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1kna9ym7-media/images/images_6_b2a2daa5323a925ce1f6.png
+2022-09-26 15:25:36,284 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:25:36,900 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:25:40,290 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:25:40,293 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:25:55,479 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:25:55,480 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:26:07,224 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:26:10,666 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:26:10,666 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:26:25,881 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:26:25,881 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:26:37,516 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:26:41,068 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:26:41,069 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:26:45,697 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:26:54,591 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:26:54,592 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_9_fd9b480bc8f4d65e2b84.png with policy now
+2022-09-26 15:26:54,592 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:26:54,594 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:26:54,595 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:26:54,597 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:26:54,751 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:26:54,752 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_9_fd9b480bc8f4d65e2b84.png
+2022-09-26 15:26:54,753 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:26:55,059 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:26:55,059 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_10_8e9c2fcfdcc32a19f8fa.png with policy now
+2022-09-26 15:26:55,059 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:26:55,061 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:26:55,062 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:26:55,064 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:26:55,100 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:26:55,101 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:26:55,102 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:26:55,105 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:26:55,481 INFO    Thread-29 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3lwe3lhy-media/images/images_9_fd9b480bc8f4d65e2b84.png
+2022-09-26 15:26:55,756 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:26:55,756 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:26:55,758 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_10_8e9c2fcfdcc32a19f8fa.png
+2022-09-26 15:26:55,760 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:26:55,774 INFO    Thread-30 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1pxethzm-media/images/thickness and histograms_10_8e9c2fcfdcc32a19f8fa.png
+2022-09-26 15:26:56,261 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:26:56,262 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:26:56,500 INFO    Thread-31 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3jqwcz83-media/images/images_9_fd9b480bc8f4d65e2b84.png
+2022-09-26 15:26:56,516 INFO    Thread-32 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/a3xo1ttu-media/images/thickness and histograms_10_8e9c2fcfdcc32a19f8fa.png
+2022-09-26 15:27:07,872 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:27:11,464 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:27:11,465 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:27:26,656 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:27:26,657 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:27:38,220 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:27:41,842 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:27:41,843 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:27:57,033 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:27:57,034 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:28:02,204 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:28:08,524 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:28:09,978 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:28:09,978 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_12_3449b813749d483fd5cd.png with policy now
+2022-09-26 15:28:09,979 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:28:09,980 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:28:09,981 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:28:09,983 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:28:10,249 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:28:10,249 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:28:10,251 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_12_3449b813749d483fd5cd.png
+2022-09-26 15:28:10,252 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:28:10,456 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:28:10,457 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_13_4ea5549d48696c47fb32.png with policy now
+2022-09-26 15:28:10,457 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:28:10,459 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:28:10,459 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:28:10,462 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:28:10,504 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:28:10,505 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:28:10,506 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:28:10,510 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:28:10,901 INFO    Thread-33 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/37318ilg-media/images/images_12_3449b813749d483fd5cd.png
+2022-09-26 15:28:11,194 INFO    Thread-34 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/27dkarbl-media/images/thickness and histograms_13_4ea5549d48696c47fb32.png
+2022-09-26 15:28:11,254 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:28:11,254 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_13_4ea5549d48696c47fb32.png
+2022-09-26 15:28:11,256 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:28:11,932 INFO    Thread-35 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/23pj3k3n-media/images/images_12_3449b813749d483fd5cd.png
+2022-09-26 15:28:11,980 INFO    Thread-36 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3odmxw2l-media/images/thickness and histograms_13_4ea5549d48696c47fb32.png
+2022-09-26 15:28:12,220 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:28:12,220 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:28:12,259 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:28:27,410 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:28:27,410 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:28:38,825 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:28:42,623 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:28:42,624 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:28:57,835 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:28:57,836 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:29:09,162 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:29:13,023 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:29:13,024 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:29:16,635 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:29:24,680 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_15_9a81409339ad43376b11.png
+2022-09-26 15:29:24,681 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:29:24,682 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_15_9a81409339ad43376b11.png with policy now
+2022-09-26 15:29:24,682 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:29:24,682 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:29:24,684 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:29:24,685 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:29:24,687 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:29:25,148 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:29:25,148 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_16_e8e95ed68369d7d9b012.png with policy now
+2022-09-26 15:29:25,148 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:29:25,150 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:29:25,151 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:29:25,153 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:29:25,189 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:29:25,191 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:29:25,192 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:29:25,195 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:29:25,572 INFO    Thread-37 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/4cnz4zr3-media/images/images_15_9a81409339ad43376b11.png
+2022-09-26 15:29:25,685 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:29:25,686 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_16_e8e95ed68369d7d9b012.png
+2022-09-26 15:29:25,687 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:29:25,860 INFO    Thread-38 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/18263cih-media/images/thickness and histograms_16_e8e95ed68369d7d9b012.png
+2022-09-26 15:29:26,575 INFO    Thread-40 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/u36o81q4-media/images/thickness and histograms_16_e8e95ed68369d7d9b012.png
+2022-09-26 15:29:26,578 INFO    Thread-39 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1of48ip6-media/images/images_15_9a81409339ad43376b11.png
+2022-09-26 15:29:26,690 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:29:28,235 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:29:28,236 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:29:39,479 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:29:43,422 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:29:43,423 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:29:58,613 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:29:58,613 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:30:09,836 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:30:13,799 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:30:13,800 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:30:28,998 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:30:28,999 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:30:32,149 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:30:40,137 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:30:40,285 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:30:40,286 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_18_d9692e97997b9f2f7c31.png with policy now
+2022-09-26 15:30:40,286 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:30:40,288 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:30:40,289 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:30:40,291 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:30:40,741 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:30:40,741 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_19_7d7e7e43ad30fa6bb30b.png with policy now
+2022-09-26 15:30:40,741 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:30:40,743 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:30:40,744 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:30:40,746 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:30:40,783 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:30:40,784 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:30:40,786 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:30:40,797 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:30:41,179 INFO    Thread-41 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1xtdda3p-media/images/images_18_d9692e97997b9f2f7c31.png
+2022-09-26 15:30:41,199 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:30:41,199 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_19_7d7e7e43ad30fa6bb30b.png
+2022-09-26 15:30:41,201 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_18_d9692e97997b9f2f7c31.png
+2022-09-26 15:30:41,202 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:30:41,431 INFO    Thread-42 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/2pss61rq-media/images/thickness and histograms_19_7d7e7e43ad30fa6bb30b.png
+2022-09-26 15:30:42,156 INFO    Thread-44 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/awedkrn4-media/images/thickness and histograms_19_7d7e7e43ad30fa6bb30b.png
+2022-09-26 15:30:42,164 INFO    Thread-43 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3fgs3hs0-media/images/images_18_d9692e97997b9f2f7c31.png
+2022-09-26 15:30:42,204 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:30:44,202 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:30:44,203 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:30:59,391 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:30:59,392 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:31:10,509 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:31:14,585 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:31:14,586 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:31:29,785 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:31:29,786 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:31:40,922 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:31:44,983 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:31:44,983 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:31:52,748 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:32:00,191 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:32:00,192 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:32:00,874 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:32:00,874 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_21_b04c4be859ee8432b358.png with policy now
+2022-09-26 15:32:00,874 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:32:00,876 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:32:00,877 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:32:00,879 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:32:01,327 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:32:01,327 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_22_17aa7e08e550e1f2faae.png with policy now
+2022-09-26 15:32:01,327 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:32:01,329 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:32:01,330 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:32:01,332 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:32:01,375 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:32:01,376 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:32:01,377 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:32:01,380 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:32:01,804 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:32:01,805 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_21_b04c4be859ee8432b358.png
+2022-09-26 15:32:01,806 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_22_17aa7e08e550e1f2faae.png
+2022-09-26 15:32:01,808 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:32:01,817 INFO    Thread-45 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/2co944yf-media/images/images_21_b04c4be859ee8432b358.png
+2022-09-26 15:32:02,047 INFO    Thread-46 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1hht5iim-media/images/thickness and histograms_22_17aa7e08e550e1f2faae.png
+2022-09-26 15:32:02,750 INFO    Thread-47 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/2lpbvmw5-media/images/images_21_b04c4be859ee8432b358.png
+2022-09-26 15:32:02,772 INFO    Thread-48 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3ijddqdm-media/images/thickness and histograms_22_17aa7e08e550e1f2faae.png
+2022-09-26 15:32:02,813 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:32:11,252 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:32:15,383 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:32:15,384 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:32:30,576 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:32:30,577 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:32:41,593 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:32:45,779 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:32:45,780 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:33:00,966 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:33:00,967 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:33:06,275 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:33:11,902 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:33:14,436 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:33:14,437 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_24_919f134d2061daf4e6e9.png with policy now
+2022-09-26 15:33:14,437 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:33:14,439 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:33:14,439 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:33:14,442 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:33:14,875 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:33:14,876 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_25_b216ef7c04064a40f958.png with policy now
+2022-09-26 15:33:14,877 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:33:14,878 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:33:14,879 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:33:14,882 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:33:14,918 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:33:14,919 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:33:14,920 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:33:14,931 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:33:15,333 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:33:15,334 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_24_919f134d2061daf4e6e9.png
+2022-09-26 15:33:15,335 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_25_b216ef7c04064a40f958.png
+2022-09-26 15:33:15,337 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:33:15,364 INFO    Thread-49 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/26tntyiw-media/images/images_24_919f134d2061daf4e6e9.png
+2022-09-26 15:33:15,637 INFO    Thread-50 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/14thkm5d-media/images/thickness and histograms_25_b216ef7c04064a40f958.png
+2022-09-26 15:33:16,153 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:33:16,154 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:33:16,326 INFO    Thread-51 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/xijjlc3w-media/images/images_24_919f134d2061daf4e6e9.png
+2022-09-26 15:33:16,341 INFO    Thread-52 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3hyhh0kh-media/images/thickness and histograms_25_b216ef7c04064a40f958.png
+2022-09-26 15:33:16,352 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:33:31,339 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:33:31,340 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:33:42,209 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:33:46,526 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:33:46,527 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:34:01,714 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:34:01,715 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:34:12,545 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:34:16,901 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:34:16,906 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:34:22,860 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:34:30,887 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:34:30,888 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_27_44cb560b63c3b132c33f.png with policy now
+2022-09-26 15:34:30,888 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:34:30,890 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:34:30,890 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:34:30,893 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:34:30,911 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:34:30,912 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_27_44cb560b63c3b132c33f.png
+2022-09-26 15:34:30,913 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:34:31,361 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:34:31,362 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_28_394b70757970d20f682d.png with policy now
+2022-09-26 15:34:31,361 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:34:31,364 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:34:31,364 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:34:31,367 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:34:31,402 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:34:31,403 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:34:31,404 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:34:31,415 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:34:31,850 INFO    Thread-53 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/16csokhb-media/images/images_27_44cb560b63c3b132c33f.png
+2022-09-26 15:34:31,918 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:34:31,919 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_28_394b70757970d20f682d.png
+2022-09-26 15:34:31,921 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:34:32,070 INFO    Thread-54 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1fuuu92p-media/images/thickness and histograms_28_394b70757970d20f682d.png
+2022-09-26 15:34:32,109 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:34:32,110 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:34:32,736 INFO    Thread-56 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/31x27hxk-media/images/thickness and histograms_28_394b70757970d20f682d.png
+2022-09-26 15:34:32,854 INFO    Thread-55 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/5otqw1ob-media/images/images_27_44cb560b63c3b132c33f.png
+2022-09-26 15:34:32,934 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:34:42,839 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:34:47,296 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:34:47,297 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:35:02,484 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:35:02,485 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:35:13,184 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:35:17,696 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:35:17,697 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:35:32,887 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:35:32,888 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:35:40,500 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:35:43,494 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:35:48,074 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:35:48,075 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:35:48,800 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:35:48,801 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_30_be8899874e51873c08e8.png with policy now
+2022-09-26 15:35:48,801 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:35:48,803 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:35:48,803 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:35:48,806 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:35:49,260 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:35:49,261 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_31_6db8617687690b9c1400.png with policy now
+2022-09-26 15:35:49,261 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:35:49,263 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:35:49,264 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:35:49,267 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:35:49,303 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:35:49,304 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:35:49,305 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:35:49,316 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:35:49,567 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:35:49,568 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_30_be8899874e51873c08e8.png
+2022-09-26 15:35:49,569 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_31_6db8617687690b9c1400.png
+2022-09-26 15:35:49,571 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:35:49,702 INFO    Thread-57 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1124a5sq-media/images/images_30_be8899874e51873c08e8.png
+2022-09-26 15:35:50,173 INFO    Thread-58 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3l5845yx-media/images/thickness and histograms_31_6db8617687690b9c1400.png
+2022-09-26 15:35:50,574 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:35:50,643 INFO    Thread-59 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/g6dh6jl1-media/images/images_30_be8899874e51873c08e8.png
+2022-09-26 15:35:51,150 INFO    Thread-60 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/vje43h1p-media/images/thickness and histograms_31_6db8617687690b9c1400.png
+2022-09-26 15:36:03,261 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:36:03,262 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:36:13,789 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:36:18,453 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:36:18,454 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:36:33,639 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:36:33,639 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:36:44,080 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:36:48,828 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:36:48,829 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:37:00,254 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:37:04,027 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:37:04,028 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:37:10,332 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:37:10,483 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:37:10,484 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_33_1b1270b513cbe633b362.png with policy now
+2022-09-26 15:37:10,484 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:37:10,485 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:37:10,486 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:37:10,489 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:37:10,952 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:37:10,953 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_34_066b8aea2a0ec8fb2fb4.png with policy now
+2022-09-26 15:37:10,953 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:37:10,954 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:37:10,955 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:37:10,957 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:37:11,001 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:37:11,003 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:37:11,004 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:37:11,013 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:37:11,339 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:37:11,340 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_34_066b8aea2a0ec8fb2fb4.png
+2022-09-26 15:37:11,341 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_33_1b1270b513cbe633b362.png
+2022-09-26 15:37:11,343 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:37:11,392 INFO    Thread-61 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1f8124xy-media/images/images_33_1b1270b513cbe633b362.png
+2022-09-26 15:37:11,652 INFO    Thread-62 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/16w87dh8-media/images/thickness and histograms_34_066b8aea2a0ec8fb2fb4.png
+2022-09-26 15:37:12,345 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:37:12,578 INFO    Thread-63 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3c32v5hg-media/images/images_33_1b1270b513cbe633b362.png
+2022-09-26 15:37:13,297 INFO    Thread-64 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/32lmwr3o-media/images/thickness and histograms_34_066b8aea2a0ec8fb2fb4.png
+2022-09-26 15:37:14,356 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:37:19,228 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:37:19,229 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:37:34,419 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:37:34,420 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:37:44,699 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:37:49,602 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:37:49,603 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:38:04,800 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:38:04,801 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:38:14,987 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:38:15,001 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:38:19,993 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:38:19,994 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:38:23,357 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:38:23,358 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_36_b765b03eaf419e975f81.png with policy now
+2022-09-26 15:38:23,358 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:38:23,360 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:38:23,360 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:38:23,363 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:38:23,807 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:38:23,808 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_37_d539f287eb70435bce14.png with policy now
+2022-09-26 15:38:23,808 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:38:23,810 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:38:23,810 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:38:23,813 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:38:23,850 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:38:23,851 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:38:23,852 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:38:23,862 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:38:24,079 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:38:24,080 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_36_b765b03eaf419e975f81.png
+2022-09-26 15:38:24,081 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_37_d539f287eb70435bce14.png
+2022-09-26 15:38:24,083 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:38:24,234 INFO    Thread-65 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/17ibfmxm-media/images/images_36_b765b03eaf419e975f81.png
+2022-09-26 15:38:24,493 INFO    Thread-66 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/dex8atpc-media/images/thickness and histograms_37_d539f287eb70435bce14.png
+2022-09-26 15:38:25,089 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:38:25,214 INFO    Thread-67 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/15ppd6pb-media/images/images_36_b765b03eaf419e975f81.png
+2022-09-26 15:38:25,217 INFO    Thread-68 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1mrhwkl1-media/images/thickness and histograms_37_d539f287eb70435bce14.png
+2022-09-26 15:38:35,179 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:38:35,180 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:38:45,314 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:38:50,384 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:38:50,385 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:39:05,572 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:39:05,573 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:39:15,650 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:39:20,767 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:39:20,768 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:39:30,787 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:39:35,975 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:39:35,976 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:39:40,082 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:39:40,083 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_39_9ed5912eacf8c60260bf.png with policy now
+2022-09-26 15:39:40,083 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:39:40,085 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:39:40,086 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:39:40,088 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:39:40,532 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:39:40,533 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_40_1c98ba31b33299149ac7.png with policy now
+2022-09-26 15:39:40,533 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:39:40,535 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:39:40,536 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:39:40,538 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:39:40,575 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:39:40,576 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:39:40,577 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:39:40,588 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:39:40,887 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:39:40,888 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_40_1c98ba31b33299149ac7.png
+2022-09-26 15:39:40,890 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_39_9ed5912eacf8c60260bf.png
+2022-09-26 15:39:40,891 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:39:41,004 INFO    Thread-69 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1gz7z2z3-media/images/images_39_9ed5912eacf8c60260bf.png
+2022-09-26 15:39:41,259 INFO    Thread-70 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/wyy9aa31-media/images/thickness and histograms_40_1c98ba31b33299149ac7.png
+2022-09-26 15:39:42,210 INFO    Thread-71 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3pz6mc7l-media/images/images_39_9ed5912eacf8c60260bf.png
+2022-09-26 15:39:42,910 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:39:42,928 INFO    Thread-72 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/u7gim6xh-media/images/thickness and histograms_40_1c98ba31b33299149ac7.png
+2022-09-26 15:39:45,947 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:39:51,163 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:39:51,163 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:40:06,362 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:40:06,363 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:40:16,288 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:40:21,561 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:40:21,562 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:40:36,748 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:40:36,749 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:40:46,643 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:40:48,665 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:40:51,939 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:40:51,940 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:40:58,493 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:40:58,494 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_42_21fb508c483321e733f6.png with policy now
+2022-09-26 15:40:58,494 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:40:58,496 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:40:58,496 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:40:58,499 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:40:58,758 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:40:58,759 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_42_21fb508c483321e733f6.png
+2022-09-26 15:40:58,761 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:40:58,969 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:40:58,970 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_43_b4528cdadec009df914a.png with policy now
+2022-09-26 15:40:58,970 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:40:58,971 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:40:58,972 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:40:58,974 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:40:59,012 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:40:59,013 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:40:59,014 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:40:59,025 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:40:59,439 INFO    Thread-73 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/8fy106u8-media/images/images_42_21fb508c483321e733f6.png
+2022-09-26 15:40:59,698 INFO    Thread-74 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/99e4qg9x-media/images/thickness and histograms_43_b4528cdadec009df914a.png
+2022-09-26 15:40:59,765 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:40:59,766 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_43_b4528cdadec009df914a.png
+2022-09-26 15:41:00,404 INFO    Thread-75 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1z45r0ox-media/images/images_42_21fb508c483321e733f6.png
+2022-09-26 15:41:00,507 INFO    Thread-76 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/2gdgxwuq-media/images/thickness and histograms_43_b4528cdadec009df914a.png
+2022-09-26 15:41:00,775 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:41:07,129 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:41:07,130 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:41:16,940 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:41:22,316 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:41:22,317 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:41:37,502 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:41:37,503 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:41:47,290 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:41:52,689 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:41:52,690 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:42:07,873 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:42:07,874 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:42:09,534 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:42:17,556 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:42:17,557 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_45_7965d21b9185db432430.png with policy now
+2022-09-26 15:42:17,557 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:42:17,558 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:42:17,559 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:42:17,562 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:42:17,606 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:42:17,607 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_45_7965d21b9185db432430.png
+2022-09-26 15:42:17,608 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:42:17,613 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:42:18,033 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:42:18,034 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_46_b7b773ca3eaa506b0c25.png with policy now
+2022-09-26 15:42:18,034 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:42:18,035 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:42:18,036 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:42:18,039 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:42:18,076 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:42:18,078 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:42:18,079 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:42:18,094 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:42:18,444 INFO    Thread-77 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/nmf9t4vp-media/images/images_45_7965d21b9185db432430.png
+2022-09-26 15:42:18,614 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:42:18,615 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:42:18,617 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_46_b7b773ca3eaa506b0c25.png
+2022-09-26 15:42:18,618 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:42:18,820 INFO    Thread-78 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1s1bn9d2-media/images/thickness and histograms_46_b7b773ca3eaa506b0c25.png
+2022-09-26 15:42:19,457 INFO    Thread-79 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3p70wqto-media/images/images_45_7965d21b9185db432430.png
+2022-09-26 15:42:19,545 INFO    Thread-80 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1rth1u0j-media/images/thickness and histograms_46_b7b773ca3eaa506b0c25.png
+2022-09-26 15:42:23,062 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:42:23,062 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:42:38,248 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:42:38,249 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:42:47,964 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:42:53,437 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:42:53,438 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:43:08,624 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:43:08,624 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:43:18,246 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:43:23,829 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:43:23,830 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:43:27,361 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:43:35,874 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:43:35,874 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_48_b3a55cff508fa17f9c17.png with policy now
+2022-09-26 15:43:35,874 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:43:35,876 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:43:35,877 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:43:35,880 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:43:36,296 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:43:36,297 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_49_38258642e4db7bc52add.png with policy now
+2022-09-26 15:43:36,297 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:43:36,299 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:43:36,300 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:43:36,302 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:43:36,348 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:43:36,350 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:43:36,351 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:43:36,362 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:43:36,454 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:43:36,455 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_49_38258642e4db7bc52add.png
+2022-09-26 15:43:36,457 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_48_b3a55cff508fa17f9c17.png
+2022-09-26 15:43:36,458 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:43:36,863 INFO    Thread-81 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/172tyo94-media/images/images_48_b3a55cff508fa17f9c17.png
+2022-09-26 15:43:37,011 INFO    Thread-82 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/2n0pvwlm-media/images/thickness and histograms_49_38258642e4db7bc52add.png
+2022-09-26 15:43:37,469 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:43:37,990 INFO    Thread-83 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/68q0c06p-media/images/images_48_b3a55cff508fa17f9c17.png
+2022-09-26 15:43:38,691 INFO    Thread-84 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1hcrg3zr-media/images/thickness and histograms_49_38258642e4db7bc52add.png
+2022-09-26 15:43:39,032 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:43:39,033 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:43:48,544 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:43:54,221 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:43:54,222 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:44:09,407 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:44:09,408 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:44:18,889 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:44:24,596 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:44:24,597 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:44:37,093 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:44:39,780 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:44:39,781 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:44:43,778 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:44:43,779 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_51_0d6928d0d7bbf77cddb4.png with policy now
+2022-09-26 15:44:43,779 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:44:43,781 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:44:43,781 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:44:43,783 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:44:44,164 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:44:44,165 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_51_0d6928d0d7bbf77cddb4.png
+2022-09-26 15:44:44,166 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:44:44,218 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:44:44,219 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_52_ea5ad025bb6866ab01d3.png with policy now
+2022-09-26 15:44:44,219 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:44:44,221 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:44:44,221 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:44:44,224 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:44:44,261 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:44:44,262 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:44:44,263 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:44:44,272 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:44:44,657 INFO    Thread-85 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/33u4z7r2-media/images/images_51_0d6928d0d7bbf77cddb4.png
+2022-09-26 15:44:44,932 INFO    Thread-86 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1pzyjmcq-media/images/thickness and histograms_52_ea5ad025bb6866ab01d3.png
+2022-09-26 15:44:45,173 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:44:45,173 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:44:45,175 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_52_ea5ad025bb6866ab01d3.png
+2022-09-26 15:44:45,177 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:44:45,611 INFO    Thread-87 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/6sae4f60-media/images/images_51_0d6928d0d7bbf77cddb4.png
+2022-09-26 15:44:45,905 INFO    Thread-88 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1i9zg4yf-media/images/thickness and histograms_52_ea5ad025bb6866ab01d3.png
+2022-09-26 15:44:49,229 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:44:54,964 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:44:54,965 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:45:10,152 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:45:10,153 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:45:19,591 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:45:25,347 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:45:25,348 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:45:40,544 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:45:40,544 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:45:43,723 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:45:49,901 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:45:51,606 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:45:51,607 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_54_4e0b9b273bb5ef89c3ba.png with policy now
+2022-09-26 15:45:51,607 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:45:51,608 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:45:51,609 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:45:51,611 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:45:51,791 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:45:51,792 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_54_4e0b9b273bb5ef89c3ba.png
+2022-09-26 15:45:51,793 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:45:52,094 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:45:52,094 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_55_194e36fe5d8ba592be49.png with policy now
+2022-09-26 15:45:52,095 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:45:52,096 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:45:52,097 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:45:52,099 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:45:52,143 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:45:52,144 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:45:52,145 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:45:52,156 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:45:52,496 INFO    Thread-89 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/3tgsmed8-media/images/images_54_4e0b9b273bb5ef89c3ba.png
+2022-09-26 15:45:52,807 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:45:52,808 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_55_194e36fe5d8ba592be49.png
+2022-09-26 15:45:52,809 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:45:52,826 INFO    Thread-90 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/eaobcsd1-media/images/thickness and histograms_55_194e36fe5d8ba592be49.png
+2022-09-26 15:45:53,409 INFO    Thread-91 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/eg19ij1l-media/images/images_54_4e0b9b273bb5ef89c3ba.png
+2022-09-26 15:45:53,517 INFO    Thread-92 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/38ud4pqy-media/images/thickness and histograms_55_194e36fe5d8ba592be49.png
+2022-09-26 15:45:53,815 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:45:55,732 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:45:55,733 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:46:10,924 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:46:10,925 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:46:20,237 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:46:26,123 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:46:26,123 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:46:41,312 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:46:41,313 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:46:50,561 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:46:53,308 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:46:56,502 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-26 15:46:56,503 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: stop_status
+2022-09-26 15:47:00,796 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:47:00,797 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/images_57_71af4c7d63e229c45de8.png with policy now
+2022-09-26 15:47:00,797 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:47:00,798 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:47:00,799 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:47:00,801 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:47:01,215 DEBUG   SenderThread:31534 [sender.py:send():302] send: files
+2022-09-26 15:47:01,216 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file media/images/thickness and histograms_58_b87cf0953ebb4e597ee2.png with policy now
+2022-09-26 15:47:01,216 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:47:01,218 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:47:01,219 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:47:01,221 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:47:01,259 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-26 15:47:01,261 DEBUG   SenderThread:31534 [sender.py:send():302] send: history
+2022-09-26 15:47:01,261 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:47:01,262 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:01,264 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:47:01,264 DEBUG   SenderThread:31534 [sender.py:send():302] send: exit
+2022-09-26 15:47:01,265 INFO    SenderThread:31534 [sender.py:send_exit():438] handling exit code: 0
+2022-09-26 15:47:01,266 INFO    SenderThread:31534 [sender.py:send_exit():440] handling runtime: 1524
+2022-09-26 15:47:01,270 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:47:01,273 INFO    SenderThread:31534 [sender.py:send_exit():446] send defer
+2022-09-26 15:47:01,274 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:01,274 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:01,275 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-26 15:47:01,276 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:01,276 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-26 15:47:01,277 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 1
+2022-09-26 15:47:01,278 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:01,278 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-26 15:47:01,362 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:01,363 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-26 15:47:01,364 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 2
+2022-09-26 15:47:01,365 DEBUG   SenderThread:31534 [sender.py:send():302] send: stats
+2022-09-26 15:47:01,365 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:01,367 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-26 15:47:01,367 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:01,368 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-26 15:47:01,368 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 3
+2022-09-26 15:47:01,369 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:01,370 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-26 15:47:01,370 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:01,371 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-26 15:47:01,371 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 4
+2022-09-26 15:47:01,372 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:01,372 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-26 15:47:01,373 DEBUG   SenderThread:31534 [sender.py:send():302] send: summary
+2022-09-26 15:47:01,376 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:01,376 INFO    SenderThread:31534 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-26 15:47:01,377 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:01,378 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-26 15:47:01,378 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 5
+2022-09-26 15:47:01,379 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:01,379 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:01,380 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-26 15:47:01,381 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:01,381 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-26 15:47:01,382 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 6
+2022-09-26 15:47:01,382 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:01,383 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-26 15:47:01,383 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:01,384 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-26 15:47:01,387 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:47:01,388 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_57_71af4c7d63e229c45de8.png
+2022-09-26 15:47:01,389 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_created():275] file/dir created: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_58_b87cf0953ebb4e597ee2.png
+2022-09-26 15:47:01,390 INFO    Thread-12 :31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images
+2022-09-26 15:47:01,480 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:01,708 INFO    Thread-93 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1agv8dk9-media/images/images_57_71af4c7d63e229c45de8.png
+2022-09-26 15:47:01,920 INFO    Thread-94 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/22nag2lp-media/images/thickness and histograms_58_b87cf0953ebb4e597ee2.png
+2022-09-26 15:47:02,654 INFO    Thread-96 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1z2n4oa9-media/images/thickness and histograms_58_b87cf0953ebb4e597ee2.png
+2022-09-26 15:47:02,660 INFO    Thread-95 :31534 [upload_job.py:push():138] Uploaded file /tmp/tmp6jjo6s0hwandb/1rpppsje-media/images/images_57_71af4c7d63e229c45de8.png
+2022-09-26 15:47:02,912 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 7
+2022-09-26 15:47:02,913 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:02,913 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:02,915 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-26 15:47:02,915 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:02,916 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-26 15:47:02,917 INFO    SenderThread:31534 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-26 15:47:03,016 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:03,400 INFO    SenderThread:31534 [dir_watcher.py:_on_file_modified():292] file/dir modified: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:47:03,406 INFO    SenderThread:31534 [dir_watcher.py:finish():392] scan: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files
+2022-09-26 15:47:03,407 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/config.yaml config.yaml
+2022-09-26 15:47:03,409 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-metadata.json wandb-metadata.json
+2022-09-26 15:47:03,414 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/requirements.txt requirements.txt
+2022-09-26 15:47:03,415 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json wandb-summary.json
+2022-09-26 15:47:03,420 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log output.log
+2022-09-26 15:47:03,425 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_6_b2a2daa5323a925ce1f6.png media/images/images_6_b2a2daa5323a925ce1f6.png
+2022-09-26 15:47:03,426 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_28_394b70757970d20f682d.png media/images/thickness and histograms_28_394b70757970d20f682d.png
+2022-09-26 15:47:03,427 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_22_17aa7e08e550e1f2faae.png media/images/thickness and histograms_22_17aa7e08e550e1f2faae.png
+2022-09-26 15:47:03,428 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_54_4e0b9b273bb5ef89c3ba.png media/images/images_54_4e0b9b273bb5ef89c3ba.png
+2022-09-26 15:47:03,428 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_55_194e36fe5d8ba592be49.png media/images/thickness and histograms_55_194e36fe5d8ba592be49.png
+2022-09-26 15:47:03,429 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_9_fd9b480bc8f4d65e2b84.png media/images/images_9_fd9b480bc8f4d65e2b84.png
+2022-09-26 15:47:03,429 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_25_b216ef7c04064a40f958.png media/images/thickness and histograms_25_b216ef7c04064a40f958.png
+2022-09-26 15:47:03,430 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_42_21fb508c483321e733f6.png media/images/images_42_21fb508c483321e733f6.png
+2022-09-26 15:47:03,431 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_45_7965d21b9185db432430.png media/images/images_45_7965d21b9185db432430.png
+2022-09-26 15:47:03,431 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_31_6db8617687690b9c1400.png media/images/thickness and histograms_31_6db8617687690b9c1400.png
+2022-09-26 15:47:03,432 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_57_71af4c7d63e229c45de8.png media/images/images_57_71af4c7d63e229c45de8.png
+2022-09-26 15:47:03,432 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_10_8e9c2fcfdcc32a19f8fa.png media/images/thickness and histograms_10_8e9c2fcfdcc32a19f8fa.png
+2022-09-26 15:47:03,433 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_13_4ea5549d48696c47fb32.png media/images/thickness and histograms_13_4ea5549d48696c47fb32.png
+2022-09-26 15:47:03,434 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_52_ea5ad025bb6866ab01d3.png media/images/thickness and histograms_52_ea5ad025bb6866ab01d3.png
+2022-09-26 15:47:03,434 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_15_9a81409339ad43376b11.png media/images/images_15_9a81409339ad43376b11.png
+2022-09-26 15:47:03,435 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_3_a921fa44a7ec560fca9e.png media/images/images_3_a921fa44a7ec560fca9e.png
+2022-09-26 15:47:03,436 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_16_e8e95ed68369d7d9b012.png media/images/thickness and histograms_16_e8e95ed68369d7d9b012.png
+2022-09-26 15:47:03,437 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_24_919f134d2061daf4e6e9.png media/images/images_24_919f134d2061daf4e6e9.png
+2022-09-26 15:47:03,438 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_0_6f79f47a559b2237ad30.png media/images/images_0_6f79f47a559b2237ad30.png
+2022-09-26 15:47:03,438 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_12_3449b813749d483fd5cd.png media/images/images_12_3449b813749d483fd5cd.png
+2022-09-26 15:47:03,439 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_58_b87cf0953ebb4e597ee2.png media/images/thickness and histograms_58_b87cf0953ebb4e597ee2.png
+2022-09-26 15:47:03,439 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_34_066b8aea2a0ec8fb2fb4.png media/images/thickness and histograms_34_066b8aea2a0ec8fb2fb4.png
+2022-09-26 15:47:03,440 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_33_1b1270b513cbe633b362.png media/images/images_33_1b1270b513cbe633b362.png
+2022-09-26 15:47:03,440 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_40_1c98ba31b33299149ac7.png media/images/thickness and histograms_40_1c98ba31b33299149ac7.png
+2022-09-26 15:47:03,441 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_21_b04c4be859ee8432b358.png media/images/images_21_b04c4be859ee8432b358.png
+2022-09-26 15:47:03,441 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_37_d539f287eb70435bce14.png media/images/thickness and histograms_37_d539f287eb70435bce14.png
+2022-09-26 15:47:03,442 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_19_7d7e7e43ad30fa6bb30b.png media/images/thickness and histograms_19_7d7e7e43ad30fa6bb30b.png
+2022-09-26 15:47:03,443 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_4_3e9e78baa05ce62dcef5.png media/images/thickness and histograms_4_3e9e78baa05ce62dcef5.png
+2022-09-26 15:47:03,446 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_46_b7b773ca3eaa506b0c25.png media/images/thickness and histograms_46_b7b773ca3eaa506b0c25.png
+2022-09-26 15:47:03,446 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_49_38258642e4db7bc52add.png media/images/thickness and histograms_49_38258642e4db7bc52add.png
+2022-09-26 15:47:03,446 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_36_b765b03eaf419e975f81.png media/images/images_36_b765b03eaf419e975f81.png
+2022-09-26 15:47:03,447 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_48_b3a55cff508fa17f9c17.png media/images/images_48_b3a55cff508fa17f9c17.png
+2022-09-26 15:47:03,447 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_43_b4528cdadec009df914a.png media/images/thickness and histograms_43_b4528cdadec009df914a.png
+2022-09-26 15:47:03,448 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_7_b6bce8bba412b3b8ea26.png media/images/thickness and histograms_7_b6bce8bba412b3b8ea26.png
+2022-09-26 15:47:03,448 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_27_44cb560b63c3b132c33f.png media/images/images_27_44cb560b63c3b132c33f.png
+2022-09-26 15:47:03,448 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_51_0d6928d0d7bbf77cddb4.png media/images/images_51_0d6928d0d7bbf77cddb4.png
+2022-09-26 15:47:03,449 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_39_9ed5912eacf8c60260bf.png media/images/images_39_9ed5912eacf8c60260bf.png
+2022-09-26 15:47:03,449 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/thickness and histograms_1_9a00066e7c19f64f3a25.png media/images/thickness and histograms_1_9a00066e7c19f64f3a25.png
+2022-09-26 15:47:03,449 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_18_d9692e97997b9f2f7c31.png media/images/images_18_d9692e97997b9f2f7c31.png
+2022-09-26 15:47:03,450 INFO    SenderThread:31534 [dir_watcher.py:finish():406] scan save: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/media/images/images_30_be8899874e51873c08e8.png media/images/images_30_be8899874e51873c08e8.png
+2022-09-26 15:47:03,450 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 8
+2022-09-26 15:47:03,451 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:03,451 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:03,451 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-26 15:47:03,452 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:03,452 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-26 15:47:03,452 INFO    SenderThread:31534 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-26 15:47:03,553 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:03,554 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:03,656 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:03,657 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:03,761 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:03,762 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:03,865 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:03,866 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:03,969 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:03,970 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:04,045 INFO    Thread-97 :31534 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/config.yaml
+2022-09-26 15:47:04,049 INFO    Thread-100:31534 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/output.log
+2022-09-26 15:47:04,074 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:04,075 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:04,074 INFO    Thread-99 :31534 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/wandb-summary.json
+2022-09-26 15:47:04,090 INFO    Thread-98 :31534 [upload_job.py:push():138] Uploaded file /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/files/requirements.txt
+2022-09-26 15:47:04,177 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:04,179 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:04,282 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:04,283 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:04,292 INFO    Thread-11 :31534 [sender.py:transition_state():459] send defer: 9
+2022-09-26 15:47:04,293 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:04,294 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-26 15:47:04,294 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:04,295 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-26 15:47:04,386 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:04,795 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 10
+2022-09-26 15:47:04,796 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:04,796 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:04,798 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-26 15:47:04,799 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:04,799 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-26 15:47:04,800 INFO    SenderThread:31534 [sender.py:transition_state():459] send defer: 11
+2022-09-26 15:47:04,801 DEBUG   SenderThread:31534 [sender.py:send():302] send: final
+2022-09-26 15:47:04,801 DEBUG   SenderThread:31534 [sender.py:send():302] send: footer
+2022-09-26 15:47:04,801 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: defer
+2022-09-26 15:47:04,803 INFO    HandlerThread:31534 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-26 15:47:04,803 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: defer
+2022-09-26 15:47:04,804 INFO    SenderThread:31534 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-26 15:47:04,899 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-26 15:47:04,900 DEBUG   SenderThread:31534 [sender.py:send_request():316] send_request: poll_exit
+2022-09-26 15:47:04,901 INFO    SenderThread:31534 [file_pusher.py:join():176] waiting for file pusher
+2022-09-26 15:47:05,419 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-26 15:47:05,423 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-26 15:47:05,425 INFO    MainThread:31534 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-09-26 15:47:05,426 INFO    MainThread:31534 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-09-26 15:47:05,428 INFO    MainThread:31534 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-09-26 15:47:05,431 DEBUG   HandlerThread:31534 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-26 15:47:05,432 INFO    HandlerThread:31534 [handler.py:finish():810] shutting down handler
+2022-09-26 15:47:05,801 INFO    WriterThread:31534 [datastore.py:close():279] close: /work3/soeba/HALOS/wandb/run-20220926_152135-19wpbitp/run-19wpbitp.wandb
+2022-09-26 15:47:06,317 INFO    SenderThread:31534 [sender.py:finish():1312] shutting down sender
+2022-09-26 15:47:06,318 INFO    SenderThread:31534 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-26 15:47:06,319 INFO    SenderThread:31534 [file_pusher.py:join():176] waiting for file pusher
+2022-09-26 15:47:06,436 INFO    MainThread:31534 [internal.py:handle_exit():80] Internal process exited

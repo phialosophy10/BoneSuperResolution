@@ -1,0 +1,63 @@
+Loaded dependency [python3/3.8.9]: gcc/9.3.1-binutils-2.36.1
+Loaded module: python3/3.8.9
+
+Loading python3/3.8.9
+  Loading requirement: gcc/9.3.1-binutils-2.36.1
+Loaded dependency [numpy/1.19.5-python-3.8.9-openblas-0.3.13]: openblas/0.3.13
+Loaded module: numpy/1.19.5-python-3.8.9-openblas-0.3.13
+
+Loading numpy/1.19.5-python-3.8.9-openblas-0.3.13
+  Loading requirement: openblas/0.3.13
+Loaded module: scipy/1.5.4-python-3.8.9
+Loaded module: cuda/11.3
+wandb: Currently logged in as: phialosophy. Use `wandb login --relogin` to force relogin
+Traceback (most recent call last):
+  File "/appl/python/3.8.9/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/appl/python/3.8.9/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/__main__.py", line 3, in <module>
+    cli.cli(prog_name="python -m wandb")
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/cli/cli.py", line 97, in wrapper
+    return func(*args, **kwargs)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/cli/cli.py", line 286, in service
+    server.serve()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/server.py", line 140, in serve
+    mux.loop()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/streams.py", line 336, in loop
+    raise e
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/streams.py", line 334, in loop
+    self._loop()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/streams.py", line 327, in _loop
+    self._process_action(action)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/streams.py", line 292, in _process_action
+    self._process_add(action)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/streams.py", line 208, in _process_add
+    stream.start_thread(thread)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/streams.py", line 68, in start_thread
+    self._wait_thread_active()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/service/streams.py", line 73, in _wait_thread_active
+    assert result
+AssertionError
+wandb: ERROR Error communicating with wandb process
+wandb: ERROR For more info see: https://docs.wandb.ai/library/init#init-start-error
+Traceback (most recent call last):
+  File "esrgan_bones_v3-5.py", line 43, in <module>
+    wandb.init(project="esrgan_bones_3.0", entity="phialosophy", config={})
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 691, in init
+    raise UsageError(error_message)
+wandb.errors.UsageError: Error communicating with wandb process
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+User defined signal 2

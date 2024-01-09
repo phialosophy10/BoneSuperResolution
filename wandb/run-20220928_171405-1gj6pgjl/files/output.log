@@ -1,0 +1,11 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 0
+Traceback (most recent call last):
+  File "esrgan_bones.py", line 343, in <module>
+    loss_style = calc_style_loss(gen_hr,imgs_hr)
+  File "esrgan_bones.py", line 281, in calc_style_loss
+    G=torch.mm(gen.view(channel,height*width),gen.view(channel,height*width).t())
+RuntimeError: shape '[1, 16384]' is invalid for input of size 131072

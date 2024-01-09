@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.4.258-1.el7.elrepo.x86_64-x86_64-with-glibc2.2.5",
+    "python": "3.8.9",
+    "heartbeatAt": "2023-10-25T18:23:45.895910",
+    "startedAt": "2023-10-25T18:23:45.069211",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [
+        "1",
+        "12",
+        "0.0001",
+        "5e-3",
+        "1e-1",
+        "0",
+        "001",
+        "002"
+    ],
+    "state": "running",
+    "program": "esrgan_bones_v3-1.py",
+    "codePath": "esrgan_bones_v3-1.py",
+    "host": "n-62-11-14",
+    "username": "soeba",
+    "executable": "/work3/soeba/HALOS/halos/bin/python"
+}

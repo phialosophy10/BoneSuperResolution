@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "esrgan_bones.py", line 151, in <module>
+    train_dataloader = DataLoader(ImageDataset(img_paths_train, hr_shape=hr_shape), batch_size=batch_size, drop_last=True, shuffle=True, num_workers=1)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 359, in __init__
+    batch_sampler = BatchSampler(sampler, batch_size, drop_last)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/sampler.py", line 225, in __init__
+    raise ValueError("batch_size should be a positive integer value, "
+ValueError: batch_size should be a positive integer value, but got batch_size=8

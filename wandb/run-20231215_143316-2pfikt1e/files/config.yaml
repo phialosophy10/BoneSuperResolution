@@ -1,0 +1,63 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.9
+    start_time: 1702647196.988129
+    t:
+      1:
+      - 1
+      - 41
+      - 48
+      - 51
+      - 54
+      - 55
+      - 79
+      2:
+      - 1
+      - 41
+      - 48
+      - 51
+      - 54
+      - 55
+      - 79
+      3:
+      - 17
+      - 23
+      - 37
+      4: 3.8.9
+      5: 0.13.2
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 4
+epochs:
+  desc: null
+  value: 1
+femur_test:
+  desc: null
+  value: '001'
+femur_train:
+  desc: null
+  value:
+  - '002'
+  - '026'
+  - 083
+learning_rate:
+  desc: null
+  value: 0.0001
+loss_coefficients (adv, pix, cont):
+  desc: null
+  value:
+  - 0.001
+  - 1.0
+  - 0.006
+warmup_batches:
+  desc: null
+  value: 0

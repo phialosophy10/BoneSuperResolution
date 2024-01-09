@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.258-1.el7.elrepo.x86_64-x86_64-with-glibc2.2.5",
+    "python": "3.8.9",
+    "heartbeatAt": "2023-11-08T18:19:36.898310",
+    "startedAt": "2023-11-08T18:19:36.096770",
+    "docker": null,
+    "gpu": "NVIDIA A100 80GB PCIe",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "esrgan_bones_v4-0.py",
+    "codePath": "esrgan_bones_v4-0.py",
+    "host": "n-62-18-11",
+    "username": "soeba",
+    "executable": "/work3/soeba/HALOS/halos/bin/python"
+}

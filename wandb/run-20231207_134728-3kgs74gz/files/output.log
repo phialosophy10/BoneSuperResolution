@@ -1,0 +1,33 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 1
+Traceback (most recent call last):
+  File "esrgan_bones_v5-0.py", line 160, in <module>
+    for batch_idx, imgs in enumerate(train_dataloader):
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1376, in _next_data
+    return self._process_data(data)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1402, in _process_data
+    data.reraise()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/_utils.py", line 461, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/work3/soeba/HALOS/datasets.py", line 59, in __getitem__
+    img_hr = self.hr_transform(img_hr)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 134, in __call__
+    return F.to_tensor(pic)
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 150, in to_tensor
+    img = torch.from_numpy(pic.transpose((2, 0, 1))).contiguous()
+TypeError: can't convert np.ndarray of type numpy.uint16. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint8, and bool.

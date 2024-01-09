@@ -1,0 +1,6 @@
+
+wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "srgan_bones.py", line 102, in <module>
+    img_paths_train.append([hr_paths_train[train_inds[i]], lr_paths_train[train_inds[i]]])
+IndexError: list index out of range

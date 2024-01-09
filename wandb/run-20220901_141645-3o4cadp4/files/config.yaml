@@ -1,0 +1,50 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.9
+    start_time: 1662034605.406424
+    t:
+      1:
+      - 1
+      - 41
+      - 54
+      - 55
+      2:
+      - 1
+      - 41
+      - 54
+      - 55
+      3:
+      - 17
+      - 23
+      - 37
+      4: 3.8.9
+      5: 0.13.2
+      8:
+      - 5
+      10:
+      - 3
+batch_size:
+  desc: null
+  value: 16
+epochs:
+  desc: null
+  value: 10
+femur:
+  desc: null
+  value: '21'
+femur_test:
+  desc: null
+  value: '74'
+learning_rate:
+  desc: null
+  value: 8.0e-05
+resolution:
+  desc: null
+  value: hi-res

@@ -1,0 +1,59 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.9
+    start_time: 1664304080.20558
+    t:
+      1:
+      - 1
+      - 41
+      - 48
+      - 54
+      - 55
+      2:
+      - 1
+      - 41
+      - 48
+      - 54
+      - 55
+      3:
+      - 17
+      - 23
+      - 37
+      4: 3.8.9
+      5: 0.13.2
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 8
+epochs:
+  desc: null
+  value: 10
+femur_test:
+  desc: null
+  value: '74'
+femur_train:
+  desc: null
+  value:
+  - '01'
+  - '15'
+  - '21'
+input_type:
+  desc: null
+  value: clinical/low-res/linear
+learning_rate:
+  desc: null
+  value: 8.0e-05
+loss_coefficient:
+  desc: null
+  value: 1
+output_type:
+  desc: null
+  value: micro

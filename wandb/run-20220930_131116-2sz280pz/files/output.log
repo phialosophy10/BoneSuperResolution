@@ -1,0 +1,19 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 0
+Trained batch 2369 in epoch 0, gen_loss = 2.1801358547894765, disc_loss = 0.07175266601809376
+Testing Epoch 0
+Training Epoch 1
+Trained batch 2369 in epoch 1, gen_loss = 2.0681480073979133, disc_loss = 0.07639517474424425
+Testing Epoch 1
+Training Epoch 2
+Trained batch 2369 in epoch 2, gen_loss = 2.2065389382688303, disc_loss = 0.05440025335307457
+Testing Epoch 2
+Training Epoch 3
+Trained batch 2369 in epoch 3, gen_loss = 2.220198254243231, disc_loss = 0.048802226476611
+Testing Epoch 3
+Training Epoch 4
+Trained batch 2369 in epoch 4, gen_loss = 2.0819901682782276, disc_loss = 0.06741226484747564
+Testing Epoch 4

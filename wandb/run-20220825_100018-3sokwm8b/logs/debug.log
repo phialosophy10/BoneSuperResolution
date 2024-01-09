@@ -1,0 +1,25 @@
+2022-08-25 10:00:18,207 INFO    MainThread:115513 [wandb_setup.py:_flush():76] Configure stats pid to 115513
+2022-08-25 10:00:18,208 INFO    MainThread:115513 [wandb_setup.py:_flush():76] Loading settings from /zhome/19/0/64415/.config/wandb/settings
+2022-08-25 10:00:18,208 INFO    MainThread:115513 [wandb_setup.py:_flush():76] Loading settings from /work3/soeba/HALOS/wandb/settings
+2022-08-25 10:00:18,209 INFO    MainThread:115513 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-08-25 10:00:18,209 INFO    MainThread:115513 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'srgan_bones.py', 'program': 'srgan_bones.py'}
+2022-08-25 10:00:18,210 INFO    MainThread:115513 [wandb_init.py:_log_setup():461] Logging user logs to /work3/soeba/HALOS/wandb/run-20220825_100018-3sokwm8b/logs/debug.log
+2022-08-25 10:00:18,210 INFO    MainThread:115513 [wandb_init.py:_log_setup():462] Logging internal logs to /work3/soeba/HALOS/wandb/run-20220825_100018-3sokwm8b/logs/debug-internal.log
+2022-08-25 10:00:18,211 INFO    MainThread:115513 [wandb_init.py:init():495] calling init triggers
+2022-08-25 10:00:18,211 INFO    MainThread:115513 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-08-25 10:00:18,212 INFO    MainThread:115513 [wandb_init.py:init():548] starting backend
+2022-08-25 10:00:18,213 INFO    MainThread:115513 [wandb_init.py:init():552] setting up manager
+2022-08-25 10:00:18,219 INFO    MainThread:115513 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-08-25 10:00:18,228 INFO    MainThread:115513 [wandb_init.py:init():558] backend started and connected
+2022-08-25 10:00:18,252 INFO    MainThread:115513 [wandb_init.py:init():636] updated telemetry
+2022-08-25 10:00:18,255 INFO    MainThread:115513 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-08-25 10:00:18,644 INFO    MainThread:115513 [wandb_run.py:_on_init():1982] communicating current version
+2022-08-25 10:00:18,729 INFO    MainThread:115513 [wandb_run.py:_on_init():1986] got version response 
+2022-08-25 10:00:18,730 INFO    MainThread:115513 [wandb_init.py:init():700] starting run threads in backend
+2022-08-25 10:00:19,118 INFO    MainThread:115513 [wandb_run.py:_console_start():1962] atexit reg
+2022-08-25 10:00:19,119 INFO    MainThread:115513 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-08-25 10:00:19,121 INFO    MainThread:115513 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-08-25 10:00:19,122 INFO    MainThread:115513 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-08-25 10:00:19,123 INFO    MainThread:115513 [wandb_init.py:init():732] run started, returning control to user process
+2022-08-25 10:00:25,498 WARNING MsgRouterThr:115513 [router.py:message_loop():76] message_loop has been closed

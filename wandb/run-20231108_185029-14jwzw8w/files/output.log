@@ -1,0 +1,43 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 1
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Epoch 1, batch no. 46747, gen. loss: nan, disc. loss: nan
+Traceback (most recent call last):
+  File "esrgan_bones_v3-3.py", line 162, in <module>
+    for batch_idx, imgs in enumerate(train_dataloader):
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1359, in _next_data
+    idx, data = self._get_data()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1325, in _get_data
+    success, data = self._try_get_data()
+  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1163, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/appl/python/3.8.9/lib/python3.8/multiprocessing/queues.py", line 107, in get
+    if not self._poll(timeout):
+  File "/appl/python/3.8.9/lib/python3.8/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/appl/python/3.8.9/lib/python3.8/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/appl/python/3.8.9/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/appl/python/3.8.9/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

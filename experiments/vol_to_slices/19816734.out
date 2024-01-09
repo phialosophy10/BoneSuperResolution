@@ -1,0 +1,66 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 19816734: <vol_to_slices> in cluster <dcc> Exited
+
+Job <vol_to_slices> was submitted from host <n-62-11-19> by user <soeba> in cluster <dcc> at Wed Dec 20 10:26:02 2023
+Job was executed on host(s) <4*n-62-20-15>, in queue <gpuv100>, as user <soeba> in cluster <dcc> at Wed Dec 20 10:26:03 2023
+</zhome/19/0/64415> was used as the home directory.
+</work3/soeba/HALOS/batch_jobs> was used as the working directory.
+Started at Wed Dec 20 10:26:03 2023
+Terminated at Wed Dec 20 10:27:00 2023
+Results reported at Wed Dec 20 10:27:00 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -J vol_to_slices
+#BSUB -n 4
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -W 4:00
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=4GB]"
+#BSUB -R "select[gpu32gb]"
+#BSUB -o /work3/soeba/HALOS/experiments/vol_to_slices/%J.out
+#BSUB -e /work3/soeba/HALOS/experiments/vol_to_slices/%J.err
+
+cd ..
+
+source init.sh
+
+# args: 
+# femur_no (str, {001,002,013,015,021,026,031,074,075,083,086,138,164,172})
+
+python -u vol_to_slices_uniform.py "001" "002" "013" "015" "021" "026" "031" "074" "075" "083" "086" "138" "164" "172"
+
+
+
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 137.
+
+Resource usage summary:
+
+    CPU time :                                   26.87 sec.
+    Max Memory :                                 16384 MB
+    Average Memory :                             11590.67 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   139 sec.
+    Turnaround time :                            58 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/soeba/HALOS/experiments/vol_to_slices/19816734.err> for stderr output of this job.
+

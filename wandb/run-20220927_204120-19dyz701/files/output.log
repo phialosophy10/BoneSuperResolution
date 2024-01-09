@@ -1,0 +1,36 @@
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training Epoch 0
+Trained batch 4218 in epoch 0, gen_loss = 1.3803810408031185, disc_loss = 0.04600088694050775
+Testing Epoch 0
+Training Epoch 1
+Trained batch 4218 in epoch 1, gen_loss = 1.1514481820959026, disc_loss = 0.10436289524979595
+Testing Epoch 1
+Training Epoch 2
+Trained batch 4218 in epoch 2, gen_loss = 1.1574888123412583, disc_loss = 0.0998789962751093
+Testing Epoch 2
+Training Epoch 3
+Trained batch 4218 in epoch 3, gen_loss = 1.202561650542632, disc_loss = 0.08713093176442166
+Testing Epoch 3
+Training Epoch 4
+Trained batch 4218 in epoch 4, gen_loss = 1.202581658955857, disc_loss = 0.0848713310762779
+Testing Epoch 4
+
+Training Epoch 5
+Trained batch 4218 in epoch 5, gen_loss = 1.2273520318979787, disc_loss = 0.07785039264258438
+Testing Epoch 5
+
+Training Epoch 6
+Trained batch 4218 in epoch 6, gen_loss = 1.2356986704596582, disc_loss = 0.07308127077117131
+Testing Epoch 6
+Training Epoch 7
+Trained batch 4218 in epoch 7, gen_loss = 1.2244132838350361, disc_loss = 0.08080475201387012
+Testing Epoch 7
+Training Epoch 8
+Trained batch 4218 in epoch 8, gen_loss = 1.2147764422213136, disc_loss = 0.08298098793298335
+Testing Epoch 8
+Training Epoch 9
+Trained batch 4218 in epoch 9, gen_loss = 1.2635284918805214, disc_loss = 0.07028021124942335
+Testing Epoch 9
