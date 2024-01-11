@@ -1,3 +1,0 @@
-2023-12-21 15:56:40,657 INFO    StreamThr :27531 [internal.py:wandb_internal():90] W&B internal server running at pid: 27531, started at: 2023-12-21 15:56:40.653288
-2023-12-21 15:56:40,661 DEBUG   HandlerThread:27531 [handler.py:handle_request():141] handle_request: status
-2023-12-21 15:56:55,005 DEBUG   SenderThread:27531 [sender.py:send_request():316] send_request: status

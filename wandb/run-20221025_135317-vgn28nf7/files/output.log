@@ -1,8 +1,0 @@
-
-Training Epoch 1
-Traceback (most recent call last):
-  File "esrgan_bones_gramgan.py", line 385, in <module>
-    loss_content = style_loss(gen_features, real_features)
-  File "esrgan_bones_gramgan.py", line 312, in style_loss
-    style_loss = torch.sum(torch.cat([torch.mean(torch.abs(real_gram_mat[idx] - fake_gram_mat[idx]))
-RuntimeError: zero-dimensional tensor (at position 0) cannot be concatenated

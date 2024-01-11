@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "esrgan_bones.py", line 98, in <module>
-    img_paths_train.append([hr_paths_train[i], lr_paths_train[i]])
-NameError: name 'img_paths_train' is not defined

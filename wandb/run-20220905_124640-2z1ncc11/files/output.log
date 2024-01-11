@@ -1,9 +1,0 @@
-wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-Traceback (most recent call last):
-  File "srgan_bones.py", line 123, in <module>
-    train_dataloader = DataLoader(ImageDataset(img_paths_train, hr_shape=hr_shape), batch_size=batch_size, drop_last=True, shuffle=True, num_workers=1)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 347, in __init__
-    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/sampler.py", line 107, in __init__
-    raise ValueError("num_samples should be a positive integer "
-ValueError: num_samples should be a positive integer value, but got num_samples=0
