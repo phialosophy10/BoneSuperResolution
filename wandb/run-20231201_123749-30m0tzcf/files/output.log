@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "esrgan_bones_v5-0.py", line 70, in <module>
-    warmup_batches = int(sys.argv[7])
-ValueError: invalid literal for int() with base 10: 'SP02-01'

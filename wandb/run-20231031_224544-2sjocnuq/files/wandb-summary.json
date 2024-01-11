@@ -1,1 +1,0 @@
-{"train_loss/gen_loss": NaN, "train_loss/disc_loss": NaN, "_timestamp": 1698790489.7604792, "_runtime": 1745.3240683078766, "_step": 193, "val_loss/gen_loss": NaN, "val_loss/disc_loss": NaN, "_wandb": {"runtime": 1748}}
