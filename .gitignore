@@ -1,0 +1,17 @@
+# Hidden folders #
+##################
+.ipynb_checkpoints
+.mypy_cache
+.vscode
+
+# cache #
+##################
+__pycache__
+
+# other #
+#################
+wandb
+Data
+halos
+init.sh
+sandbox
