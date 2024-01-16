@@ -218,9 +218,9 @@ for epoch in range(n_epochs):
         pred_real = discriminator(imgs_hr)
         pred_fake = discriminator(gen_hr.detach())
 
-        # Adversarial loss for real and fake images (relativistic average GAN)
+        # Adversarial loss for real and fake images 
         loss_fake = criterion_GAN(pred_fake, torch.zeros_like(pred_fake))
-        loss_real = criterion_GAN(pred_real, torch.ones_like(pred_real) - 0.1 * torch.ones_like(pred_real))  # Added one-side label smoothing
+        loss_real = criterion_GAN(pred_real, torch.ones_like(pred_real) - 0.1 * torch.ones_like(pred_real))  
     
         # Total loss
         loss_D = loss_real + loss_fake
