@@ -1,54 +1,0 @@
-Loaded dependency [python3/3.8.9]: gcc/9.3.1-binutils-2.36.1
-Loaded module: python3/3.8.9
-
-Loading python3/3.8.9
-  Loading requirement: gcc/9.3.1-binutils-2.36.1
-Loaded dependency [numpy/1.19.5-python-3.8.9-openblas-0.3.13]: openblas/0.3.13
-Loaded module: numpy/1.19.5-python-3.8.9-openblas-0.3.13
-
-Loading numpy/1.19.5-python-3.8.9-openblas-0.3.13
-  Loading requirement: openblas/0.3.13
-Loaded module: scipy/1.5.4-python-3.8.9
-Loaded module: cuda/11.3
-wandb: Currently logged in as: phialosophy. Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.16.1 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.13.2
-wandb: Run data is saved locally in /work3/soeba/HALOS/wandb/run-20231221_095055-2wrojr8x
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run prime-vortex-85
-wandb: ⭐️ View project at https://wandb.ai/phialosophy/esrgan_bones_3.0
-wandb: 🚀 View run at https://wandb.ai/phialosophy/esrgan_bones_3.0/runs/2wrojr8x
-/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
-  warnings.warn(
-/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
-  warnings.warn(msg)
-Traceback (most recent call last):
-  File "esrgan_bones_v3-5.py", line 170, in <module>
-    gen_hr = generator(imgs_lr)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/work3/soeba/HALOS/models.py", line 305, in forward
-    out = self.res_blocks(out1)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
-    input = module(input)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/work3/soeba/HALOS/models.py", line 275, in forward
-    return self.dense_blocks(x).mul(self.res_scale) + x
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
-    input = module(input)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/work3/soeba/HALOS/models.py", line 263, in forward
-    inputs = torch.cat([inputs, out], 1)
-RuntimeError: CUDA out of memory. Tried to allocate 4.00 GiB (GPU 0; 31.74 GiB total capacity; 29.15 GiB already allocated; 407.12 MiB free; 30.16 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
-wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.004 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb:                                                                                
-wandb: Synced prime-vortex-85: https://wandb.ai/phialosophy/esrgan_bones_3.0/runs/2wrojr8x
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20231221_095055-2wrojr8x/logs

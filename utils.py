@@ -2,11 +2,108 @@ import porespy as ps
 ps.visualization.set_mpl_style()
 import matplotlib.pyplot as plt
 import numpy as np
+import cv2 as cv
+import localthickness as lt
+from skimage.filters import threshold_otsu
 from torchvision.utils import save_image, make_grid
 import torch
 import monai
 from monai.networks.nets import UNet
 import glob
+import argparse
+import time, gc
+
+# Timing utilities
+start_time = None
+
+def start_timer():
+    global start_time
+    gc.collect()
+    torch.cuda.empty_cache()
+    torch.cuda.reset_max_memory_allocated()
+    torch.cuda.synchronize()
+    start_time = time.time()
+
+def end_timer_and_print(local_msg):
+    torch.cuda.synchronize()
+    end_time = time.time()
+    print("\n" + local_msg)
+    print("Total execution time = {:.3f} sec".format(end_time - start_time))
+    print("Max memory used by tensors = {} bytes".format(torch.cuda.max_memory_allocated()))
+
+# Function to take in command line arguments
+def get_cmd_args():
+    CLI=argparse.ArgumentParser()
+    CLI.add_argument(
+        "model_type",
+        type=str,
+        choices=["ESRGAN", "SRGAN"],
+        default="ESRGAN",
+        help="model architecture (ESRGAN or SRGAN)",
+    )
+    CLI.add_argument(
+        "data_type",
+        type=str,
+        choices=["real", "synth"],
+        default="real",
+        help="input data type (real or synthetic)",
+    )
+    CLI.add_argument(
+        "n_epochs",
+        type=int,
+        default=5,
+        help="Number of epochs to train the model",
+    )
+    CLI.add_argument(
+        "batch_size",
+        type=int,
+        default=12,
+        help="Batch size for training",
+    )
+    CLI.add_argument(
+        "lr",
+        type=float,
+        default=1e-4,
+        help="Learning rate",
+    )
+    CLI.add_argument(
+        "pix_loss",
+        type=str,
+        choices=["L1", "MSE"],
+        default="L1",
+        help="Type of pixel-loss (L1 or MSE)"
+    )
+    CLI.add_argument(
+        "--loss_coeffs",
+        nargs=3,
+        type=float,
+        default=[0.001, 1.0, 0.006],
+        help="Coefficients for the three loss terms: adv, pixel, cont (default: 0.001, 1.0, 0.006)"
+    )
+    CLI.add_argument(
+        "--test",                   # name on the CLI - drop the `--` for positional/required parameters
+        nargs="*",                  # 0 or more values expected => creates a list
+        type=str,
+        default=["002", "086"],     # default if nothing is provided
+        help="Bones to test on (images shown during training)"
+    )
+    CLI.add_argument(
+        "--train",
+        nargs="*",
+        type=str,                   # any type/callable can be used here
+        default=["013", "015", "021"],
+        help="Bones to train on"
+    )
+    CLI.add_argument(
+        "--valid",
+        nargs="*",
+        type=str,                  
+        default=["002", "086", "138"],
+        help="Bones to validate on (calculations after finished training)"
+    )
+    args = CLI.parse_args()
+    
+    return args
 
 # Function to make image grid with hr, lr, sr and thickness image and histogram
 def make_thickness_images(hr_imgs, lr_imgs, sr_imgs):
@@ -110,7 +207,7 @@ def make_thickness_images_dif2(hr_imgs, lr_imgs, sr_imgs):
     imgs_dif = make_grid(dif_ims, nrow=1, normalize=True)
     img_grid = torch.cat((imgs_hr, imgs_lr, imgs_sr, imgs_dif), -1)
 
-    fig, axs = plt.subplots(batch_size, 4, figsize=(8,10))
+    fig, axs = plt.subplots(batch_size, 4, figsize=(16,10))
     for i in range(batch_size):
         axs[i,0].imshow(thickness_hr[i], interpolation='none', origin='upper', cmap=plt.cm.jet)
         axs[i,0].axis('off')
@@ -120,6 +217,87 @@ def make_thickness_images_dif2(hr_imgs, lr_imgs, sr_imgs):
         axs[i,3].bar(x=thick_hist_sr[i].LogR, height=thick_hist_sr[i].pdf, width=thick_hist_sr[i].bin_widths, edgecolor='k')
     
     return img_grid, fig
+
+def make_dif_thck_ims_v3(hr_imgs, lr_imgs, sr_imgs):
+    batch_size = len(hr_imgs)
+    thick_hr = []
+    thick_sr = []
+    dif_ims = np.zeros((hr_imgs.shape[0],3,hr_imgs.shape[2],hr_imgs.shape[3]))
+
+    for i in range(batch_size):
+        bin_im_hr = hr_imgs[i][0].cpu().detach().clone().numpy()
+        #_, bin_im_hr = cv.threshold(bin_im_hr,0,255,cv.THRESH_BINARY+cv.THRESH_OTSU)
+        bin_im_hr = bin_im_hr > threshold_otsu(bin_im_hr)
+        thick_tmp = lt.local_thickness(bin_im_hr, scale=0.5)
+        thick_hr.append(thick_tmp)
+        bin_im_sr = sr_imgs[i][0].cpu().detach().clone().numpy()
+        #_, bin_im_sr = cv.threshold(bin_im_sr,0,255,cv.THRESH_BINARY+cv.THRESH_OTSU)
+        bin_im_sr = bin_im_sr > threshold_otsu(bin_im_sr)
+        dif_ims[i,0,:,:] = bin_im_hr 
+        dif_ims[i,1,:,:] = bin_im_sr 
+        thick_tmp = lt.local_thickness(bin_im_sr, scale=0.5)
+        thick_sr.append(thick_tmp)
+
+    imgs_lr = make_grid(lr_imgs[:batch_size].cpu().detach(), nrow=1, normalize=True)
+    imgs_hr = make_grid(hr_imgs[:batch_size].cpu().detach(), nrow=1, normalize=True)
+    imgs_sr = make_grid(sr_imgs[:batch_size].cpu().detach(), nrow=1, normalize=True)
+    imgs_dif = make_grid(torch.from_numpy(dif_ims), nrow=1, normalize=True)
+    img_grid = torch.cat((imgs_hr, imgs_lr, imgs_sr, imgs_dif), -1)
+
+    fig, axs = plt.subplots(batch_size, 2, figsize=(6,10))
+    for i in range(batch_size):
+        axs[i,0].imshow(thick_hr[i], interpolation='none', origin='upper', cmap=lt.black_plasma())
+        axs[i,0].axis('off')
+        axs[i,1].imshow(thick_sr[i], interpolation='none', origin='upper', cmap=lt.black_plasma())
+        axs[i,1].axis('off')
+    
+    return img_grid, fig
+
+def show_dif_thck_ims_v3(hr_imgs, lr_imgs, sr_imgs):
+    batch_size = len(hr_imgs)
+    thick_hr = []
+    thick_sr = []
+    dif_ims = np.zeros((hr_imgs.shape[0],3,hr_imgs.shape[2],hr_imgs.shape[3]))
+
+    for i in range(batch_size):
+        bin_im_hr = hr_imgs[i][0].cpu().detach().clone().numpy()
+        #_, bin_im_hr = cv.threshold(bin_im_hr,0,255,cv.THRESH_BINARY+cv.THRESH_OTSU)
+        bin_im_hr = bin_im_hr > threshold_otsu(bin_im_hr)
+        thick_tmp = lt.local_thickness(bin_im_hr, scale=0.5)
+        thick_hr.append(thick_tmp)
+        bin_im_sr = sr_imgs[i][0].cpu().detach().clone().numpy()
+        #_, bin_im_sr = cv.threshold(bin_im_sr,0,255,cv.THRESH_BINARY+cv.THRESH_OTSU)
+        bin_im_sr = bin_im_sr > threshold_otsu(bin_im_sr)
+        dif_ims[i,0,:,:] = bin_im_hr 
+        dif_ims[i,1,:,:] = bin_im_sr 
+        thick_tmp = lt.local_thickness(bin_im_sr, scale=0.5)
+        thick_sr.append(thick_tmp)
+
+    imgs_lr = make_grid(lr_imgs[:batch_size].cpu().detach(), nrow=1, normalize=True)
+    imgs_hr = make_grid(hr_imgs[:batch_size].cpu().detach(), nrow=1, normalize=True)
+    imgs_sr = make_grid(sr_imgs[:batch_size].cpu().detach(), nrow=1, normalize=True)
+    imgs_dif = make_grid(torch.from_numpy(dif_ims), nrow=1, normalize=True)
+    img_grid = torch.cat((imgs_hr, imgs_lr, imgs_sr, imgs_dif), -1)
+    plt.imshow(img_grid.transpose(1, 2, 0))
+    
+    fig, axs = plt.subplots(1, 4, figsize=(20,10))
+    axs[0,0].imshow(imgs_hr, cmap='gray')
+    axs[0,0].axis('off')
+    axs[0,1].imshow(imgs_lr, cmap='gray')
+    axs[0,1].axis('off')
+    axs[0,2].imshow(imgs_sr, cmap='gray')
+    axs[0,2].axis('off')
+    axs[0,3].imshow(imgs_dif)
+    axs[0,3].axis('off')
+    plt.show()
+
+    fig, axs = plt.subplots(batch_size, 2, figsize=(6,10))
+    for i in range(batch_size):
+        axs[i,0].imshow(thick_hr[i], interpolation='none', origin='upper', cmap=lt.black_plasma())
+        axs[i,0].axis('off')
+        axs[i,1].imshow(thick_sr[i], interpolation='none', origin='upper', cmap=lt.black_plasma())
+        axs[i,1].axis('off')
+    plt.show()
 
 def make_images(hr_imgs, lr_imgs, sr_imgs):
     imgs_lr = make_grid(lr_imgs.cpu().detach(), nrow=1, normalize=True)

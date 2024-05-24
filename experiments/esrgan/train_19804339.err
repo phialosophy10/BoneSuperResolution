@@ -1,31 +1,0 @@
-Loaded dependency [python3/3.8.9]: gcc/9.3.1-binutils-2.36.1
-Loaded module: python3/3.8.9
-
-Loading python3/3.8.9
-  Loading requirement: gcc/9.3.1-binutils-2.36.1
-Loaded dependency [numpy/1.19.5-python-3.8.9-openblas-0.3.13]: openblas/0.3.13
-Loaded module: numpy/1.19.5-python-3.8.9-openblas-0.3.13
-
-Loading numpy/1.19.5-python-3.8.9-openblas-0.3.13
-  Loading requirement: openblas/0.3.13
-Loaded module: scipy/1.5.4-python-3.8.9
-Loaded module: cuda/11.3
-wandb: W&B API key is configured. Use `wandb login --relogin` to force relogin
-wandb: Network error (ReadTimeout), entering retry loop.
-wandb: ERROR Error communicating with wandb process
-wandb: ERROR For more info see: https://docs.wandb.ai/library/init#init-start-error
-Traceback (most recent call last):
-  File "esrgan_bones_v3-5.py", line 43, in <module>
-    wandb.init(project="esrgan_bones_3.0", entity="phialosophy", config={})
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1043, in init
-    run = wi.init()
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 691, in init
-    raise UsageError(error_message)
-wandb.errors.UsageError: Error communicating with wandb process
-For more info see: https://docs.wandb.ai/library/init#init-start-error
-wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
-wandb: Network error (ReadTimeout), entering retry loop.
-wandb: Network error (ReadTimeout), entering retry loop.
-wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: | 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: / 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb:                                                                                
-wandb: Synced 2 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20231219_100733-1r8nd9xw/logs

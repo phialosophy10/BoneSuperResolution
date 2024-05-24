@@ -1,53 +1,0 @@
-Loaded dependency [python3/3.8.9]: gcc/9.3.1-binutils-2.36.1
-Loaded module: python3/3.8.9
-
-Loading python3/3.8.9
-  Loading requirement: gcc/9.3.1-binutils-2.36.1
-Loaded dependency [numpy/1.19.5-python-3.8.9-openblas-0.3.13]: openblas/0.3.13
-Loaded module: numpy/1.19.5-python-3.8.9-openblas-0.3.13
-
-Loading numpy/1.19.5-python-3.8.9-openblas-0.3.13
-  Loading requirement: openblas/0.3.13
-Loaded module: scipy/1.5.4-python-3.8.9
-Loaded module: cuda/11.3
-wandb: Currently logged in as: phialosophy. Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.16.1 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.13.2
-wandb: Run data is saved locally in /work3/soeba/HALOS/wandb/run-20231219_160048-166wv478
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run dashing-field-81
-wandb: ⭐️ View project at https://wandb.ai/phialosophy/esrgan_bones_3.0
-wandb: 🚀 View run at https://wandb.ai/phialosophy/esrgan_bones_3.0/runs/166wv478
-/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
-  warnings.warn(
-/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
-  warnings.warn(msg)
-Traceback (most recent call last):
-  File "esrgan_bones_v3-5.py", line 156, in <module>
-    for batch_idx, imgs in enumerate(train_dataloader):
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
-    data = self._next_data()
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1376, in _next_data
-    return self._process_data(data)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1402, in _process_data
-    data.reraise()
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/_utils.py", line 461, in reraise
-    raise exception
-IndexError: Caught IndexError in DataLoader worker process 0.
-Original Traceback (most recent call last):
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
-    data = fetcher.fetch(index)
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
-    data = [self.dataset[idx] for idx in possibly_batched_index]
-  File "/work3/soeba/HALOS/halos/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
-    data = [self.dataset[idx] for idx in possibly_batched_index]
-  File "/work3/soeba/HALOS/datasets.py", line 100, in __getitem__
-    slice_name = self.vol_names[index] + "_" + str(self.slice_idx[index][1])
-IndexError: list index out of range
-
-wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
-wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb:                                                                                
-wandb: Synced dashing-field-81: https://wandb.ai/phialosophy/esrgan_bones_3.0/runs/166wv478
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20231219_160048-166wv478/logs

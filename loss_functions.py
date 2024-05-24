@@ -2,6 +2,8 @@
 import torch
 import torch.nn as nn
 from torchvision.models import vgg19
+import skimage.metrics as skim
+import numpy as np
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -53,4 +55,3 @@ class VGGLoss3D(nn.Module):
 
         # Perhaps we need 1 more permute here to go back to the same patch orientation.
         return loss
-
