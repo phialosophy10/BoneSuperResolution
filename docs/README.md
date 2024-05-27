@@ -35,3 +35,8 @@ plt.show()
 
 
 ```
+
+## Results
+In the figure below is shown selected results on the FACTS dataset. The left image shows results for the ESRGAN model trained and tested on real data, the center image shows results for the ESRGAN model trained and tested on synthetic data, and the right image shows results for the SRGAN model trained and tested on real data.
+
+
