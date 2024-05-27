@@ -98,14 +98,14 @@ class SliceData_v2(Dataset):
         num_patch = [num_patch_bone] * (num_bones-1)
         num_patch.append(num_patch_bone_last)
         for i in range(num_bones):
-            hr_volume = np.load(file_paths[i][0])
+            hr_vol = np.load(file_paths[i][0])
             self.hr_means.append(np.mean(hr_vol))
             self.hr_stds.append(np.std(hr_vol))
-            self.hr_vols.append(hr_volume)
-            lr_volume = np.load(file_paths[i][1])
+            self.hr_vols.append(hr_vol)
+            lr_vol = np.load(file_paths[i][1])
             self.lr_means.append(np.mean(lr_vol))
             self.lr_stds.append(np.std(lr_vol))
-            self.lr_vols.append(lr_volume)
+            self.lr_vols.append(lr_vol)
             for j in range(num_patch[i]):
                 s_idx = random.randrange(hr_vol.shape[2])
                 self.slice_idx.append([i,s_idx])
