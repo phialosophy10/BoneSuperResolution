@@ -112,7 +112,7 @@ class SliceData_v2(Dataset):
 
         self.num_slices_total = num_patches
         
-        self.lr_tranforms = []
+        self.lr_transforms = []
         self.hr_transforms = []
         for i in range(num_bones):
             self.lr_transforms.append(transforms.Compose([
