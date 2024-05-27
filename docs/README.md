@@ -13,14 +13,25 @@ The data can be downloaded [here](https://github.com/phialosophy10/BoneSuperReso
 ## Usage
 
 ```python
-import foobar
+import tifffile
+import matplotlib.pyplot as plt
 
-# returns 'words'
-foobar.pluralize('word')
+# load femur "001"
+vol_hr = tifffile.imread('/root_path/f_001/HR/f_001.tiff')
+vol_lr = tifffile.imread('/root_path/f_001/LR/f_001.tiff')
+vol_sy = tifffile.imread('/root_path/f_001/SY/f_001.tiff')
 
-# returns 'geese'
-foobar.pluralize('goose')
+# show selected slice from each volume
+idx = 800
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+fig, ax = plt.subplots(1, 3)
+ax[0] = plt.imshow(vol_hr[:,:,idx],cmap='gray')
+ax[0].set_title('micro-CT slice')
+ax[1] = plt.imshow(vol_hr[:,:,idx],cmap='gray')
+ax[0].set_title('clinical CT slice')
+ax[2] = plt.imshow(vol_hr[:,:,idx],cmap='gray')
+ax[0].set_title('synthetic low-res slice')
+plt.show()
+
+
 ```
