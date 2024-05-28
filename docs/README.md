@@ -47,5 +47,6 @@ plt.show()
 ## Results
 In the figure below is shown selected results on the FACTS dataset. The left image shows results for the ESRGAN model trained and tested on real data, the center image shows results for the ESRGAN model trained and tested on synthetic data, and the right image shows results for the SRGAN model trained and tested on real data.
 
-![project_page_figure3](https://github.com/phialosophy10/BoneSuperResolution/assets/93533251/9738623c-fc4c-4c9d-b457-1ecc18cdf019)
+![project_page_figure3](https://github.com/phialosophy10/BoneSuperResolution/assets/93533251/73cf9ea8-0ace-49cd-8df8-d157a88b458f)
+
 
