@@ -1,6 +1,7 @@
 # CT Superresolution of human bones
 
 This is the project page for the paper titled "Superresolution of real-world multiscale bone CT verified with clinical bone measures", presented at MIUA conference 2024 in Manchester.
+DOI: [10.1007/978-3-031-66958-3_12](https://doi.org/10.1007/978-3-031-66958-3_12)
 
 The project explores the performance of superresolution GANs on two real-world multiscale datasets and compares with the performance on synthetically downscaled data. Evaluation is carried out with both image similarity metrics PSNR and SSIM, as well as with clinically relevant bone measures, calculated on the resulting superresolution bone images.
 
