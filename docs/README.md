@@ -3,23 +3,29 @@
 This is the project page for the FACTS dataset, published simultaneously with the paper "Superresolution of real-world multiscale bone CT verified with clinical bone measures", presented at the MIUA (Medical Image Understanding and Analysis) conference 2024 in Manchester.
 DOI: [10.1007/978-3-031-66958-3_12](https://doi.org/10.1007/978-3-031-66958-3_12)
 
-The dataset was created as a benchmark for 3D superresolution networks and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution images.
+The dataset was created as a benchmark for 3D superresolution networks and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution volumes.
 
-The work presented in the paper compares the performance of superresolution GANs on real-world multiscale datasets and synthetically downscaled datasets. Evaluation is carried out with both image similarity metrics PSNR and SSIM, as well as with clinically relevant bone measures, calculated on the resulting superresolution images and compared with the micro-CT ground truth images.
+The work presented in the paper compares the performance of superresolution GANs on real-world multiscale datasets and synthetically downscaled datasets. Evaluation is carried out with both image similarity metrics PSNR and SSIM, as well as with clinically relevant bone measures, calculated on the resulting superresolution volumes and compared with the micro-CT ground truth volumes.
 
 ## Data description and download
 
-The FACTS (Femur Archaeological CT Superresolution) dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The bones have been scanned using a SIEMENS clinical CT scanner resulting in (0.21x0.21x0.4 mm³) resolution, as well as with a NIKON micro-CT scanner resulting in (58x58x58 um³) resolution. The volumes have been registered using ITK-SNAP and the clinical volume resliced to the same size (using linear interpolation), giving voxel-to-voxel correspondance.
+The data can be downloaded [here](https://github.com/phialosophy10/BoneSuperResolution) (CORRECT LINK TO DATA WILL BE PROVIDED SOON)
 
-A 3D rendering of one of the micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below.
+The FACTS (Femur Archaeological CT Superresolution) dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The dataset contains both left and right proximal femurs from both males and females (2M/11F). The bones have been scanned using a SIEMENS clinical CT scanner resulting in (0.21x0.21x0.4 mm³) resolution, as well as with a NIKON micro-CT scanner resulting in (58x58x58 um³) resolution. The volumes have been registered using ITK-SNAP and the clinical volume resliced to the same size (using linear interpolation), giving voxel-to-voxel correspondance.
+
+For research purposes, we have also produced synthetic low-resolution volumes, created by 4x downsampling using linear interpolation and filtering with a Gaussian kernel w. $\sigma = 1.2$. This processing was chosen to match what is typically done on datasets produced for testing superresolution architectures.
+
+A 3D rendering of one of the full micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below:
 
 ![project_page_figure2](https://github.com/phialosophy10/BoneSuperResolution/assets/93533251/945d4ad4-9023-4e59-9b42-a36c5e1b2978)
 
-The data can be downloaded [here](https://github.com/phialosophy10/BoneSuperResolution) (CORRECT LINK TO DATA WILL BE PROVIDED SOON)
-
-Example slices of the clinical CT, micro-CT and synthetically downsampled data can be seen in the figure below.
+To get a sense of the structure in the scans, example slices of the clinical CT, micro-CT and synthetically downsampled data can be seen in the figure below:
 
 ![project_page_figure1](https://github.com/phialosophy10/BoneSuperResolution/assets/93533251/3546ad53-06fe-4756-8cdf-678c48053770)
+
+We also show the centre slices of the micro-CT, clinical CT, synthetic and mask of one of the bone scans in the figure below:
+
+![f_138_all](https://github.com/user-attachments/assets/fb850a91-5d7c-40c2-9224-57ff169c1eaf)
 
 ## Usage
 
