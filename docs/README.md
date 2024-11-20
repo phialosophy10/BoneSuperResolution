@@ -1,13 +1,15 @@
-# CT Superresolution of human bones
+# FACTS (Femur Archaeological CT Superresolution) Dataset
 
-This is the project page for the paper titled "Superresolution of real-world multiscale bone CT verified with clinical bone measures", presented at MIUA conference 2024 in Manchester.
+This is the project page for the FACTS dataset, published simultaneously with the paper "Superresolution of real-world multiscale bone CT verified with clinical bone measures", presented at the MIUA (Medical Image Understanding and Analysis) conference 2024 in Manchester.
 DOI: [10.1007/978-3-031-66958-3_12](https://doi.org/10.1007/978-3-031-66958-3_12)
 
-The project explores the performance of superresolution GANs on two real-world multiscale datasets and compares with the performance on synthetically downscaled data. Evaluation is carried out with both image similarity metrics PSNR and SSIM, as well as with clinically relevant bone measures, calculated on the resulting superresolution bone images.
+The dataset was created as a benchmark for 3D superresolution networks and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution images.
+
+The work presented in the paper compares the performance of superresolution GANs on real-world multiscale datasets and synthetically downscaled datasets. Evaluation is carried out with both image similarity metrics PSNR and SSIM, as well as with clinically relevant bone measures, calculated on the resulting superresolution images and compared with the micro-CT ground truth images.
 
 ## Data description and download
 
-The FACTS (Femur Archaeological CT Superresolution) dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The bones have been scanned using a SIEMENS clinical CT scanner resulting in (0.21x0.21x0.4 mm³) resolution, as well as using a NIKON micro-CT scanner resulting in (58x58x58 um³) resolution. The volumes have been registered and the clinical volume resliced to the same size, giving voxel-to-voxel correspondance.
+The FACTS (Femur Archaeological CT Superresolution) dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The bones have been scanned using a SIEMENS clinical CT scanner resulting in (0.21x0.21x0.4 mm³) resolution, as well as with a NIKON micro-CT scanner resulting in (58x58x58 um³) resolution. The volumes have been registered using ITK-SNAP and the clinical volume resliced to the same size (using linear interpolation), giving voxel-to-voxel correspondance.
 
 A 3D rendering of one of the micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below.
 
