@@ -12,7 +12,7 @@ A 3D rendering of one of the full micro-CT bone scans, with the femoral neck hig
 
 ![3D rendering of femur](https://github.com/phialosophy10/BoneSuperResolution/assets/93533251/945d4ad4-9023-4e59-9b42-a36c5e1b2978)
 
-The FACTS (Femur Archaeological CT Superresolution) dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The dataset contains both left and right proximal femurs from both males and females (2M/11F). 
+The FACTS dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The dataset contains both left and right proximal femurs from both males and females (2M/11F). 
 
 An overview of the names, sex, approximated age (if available) and the shape of each of the bone volumes is given in the following table:
 
@@ -32,6 +32,7 @@ An overview of the names, sex, approximated age (if available) and the shape of 
 | f_164    | F      | unknown            | [914, 1266, 1367]     |
 | f_172    | F      | unknown            | [1056, 1410, 1688]    |
 
+### Scanning modalities
 The bones have been scanned using a SIEMENS clinical CT scanner resulting in a (0.21x0.21x0.4 mm³) resolution, named the low-resolution (LR) scan, as well as with a NIKON micro-CT scanner resulting in (58x58x58 um³) resolution, named the high-resolution (HR) scan. The HR and LR volumes for each of the 13 bones have been registered using ITK-SNAP and the LR volume has then been resliced to the same voxelsize (using linear interpolation), giving voxel-to-voxel correspondance.
 
 For research purposes, we have also produced synthetic low-resolution volumes (SY), created by 4x downsampling using linear interpolation and filtering with a Gaussian kernel w. $\sigma = 1.2$. This processing was chosen to match what is typically done on datasets produced for testing superresolution architectures.
@@ -40,25 +41,18 @@ Lastly, we have produced binary mask volumes (MS) of the bones by performing blu
 
 On overview of the modalities along with file types, data types and some voxel statistics are given in the table below:
 
-|     Modality              |     Orig. resolution        |     File type        |     Data type        |     Voxel intensity stats.     (avg.)        |
-|---------------------------|-----------------------------|----------------------|----------------------|----------------------------------------------|
-|     Micro-CT (HR)         |     58x58x58µm3             |     TIFF             |     Float32          |     Min: -100                                |
-|                           |     58x58x58µm3             |     TIFF             |     Float32          |     Max: 1000                                |
-|                           |     58x58x58µm3             |     TIFF             |     Float32          |     Mean: 15.3                               |
-|                           |     58x58x58µm3             |     TIFF             |     Float32          |     Median: 1.4                              |
-|     Clinical CT   (LR)    |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Min: -1000                               |
-|                           |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Max: 3000                                |
-|                           |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Mean: -736                               |
-|                           |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Median: -982                             |
-|     Synthetic   (SY)      | -                           |     TIFF             |     Float32          | -                                            |
-|     Mask (MS)             | -                           |     TIFF             |     Uint8            | -                                            |
+|     Modality              |     Orig. resolution        |     File type        |     Data type        |     Voxel intensity stats.     (avg.)                |
+|---------------------------|-----------------------------|----------------------|----------------------|------------------------------------------------------|
+|     Micro-CT (HR)         |     58x58x58µm3             |     TIFF             |     Float32          | [Min/Max]: [-100/1000],  [Mean/Median]: [15.3/1.4]   |
+|     Clinical CT   (LR)    |     .21x.21x.4mm3           |     TIFF             |     Float32          | [Min/Max]: [-1000/3000], [Mean/Median]: [-736/-982]  |
+|     Synthetic   (SY)      | -                           |     TIFF             |     Float32          | -                                                    |
+|     Mask (MS)             | -                           |     TIFF             |     Uint8            | -                                                    |
 
-### Microstructure
-The goal of superresolution for bone data is typically to recover microstructure To get a sense of the structure in the scans, example slices with zoomed-in patches of the clinical CT, micro-CT and synthetically downsampled data can be seen in the figure below:
+### Visualizations
+The goal of superresolution for bone data is typically to recover microstructure, which is very detailed in the trabecular bone (inner part) in particular. Due to limits on scan time and radiation doses, clinical scans are typically not of high enough resolution to show clear microstructure. To get a sense of the structure in the scans, example slices with zoomed-in patches of the clinical CT, micro-CT and synthetically downsampled data can be seen in the figure below:
 
 ![Microstructure of data](https://github.com/user-attachments/assets/4a5e778e-2bc9-4299-880a-32f57b2e8280)
 
-### Modalities
 We have created a GIF that shows the centre slice of a bone in all three planes for all modalities:
 
 ![Bone GIF (1)](https://github.com/user-attachments/assets/d8f591f7-f5bc-4677-8526-9799362ccce4)
