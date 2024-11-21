@@ -6,7 +6,7 @@ The dataset was created as a benchmark for 3D superresolution networks and consi
 
 ## Detailed description and download
 
-The data can be downloaded [here](https://doi.org/10.1007/978-3-031-66958-3_12).
+The data can be downloaded [here](https://doi.org/10.5281/zenodo.13885028).
 
 A 3D rendering of one of the full micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below:
 
