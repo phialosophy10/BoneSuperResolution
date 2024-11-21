@@ -1,7 +1,6 @@
 # FACTS (Femur Archaeological CT Superresolution) Dataset
 
-This is the project page for the FACTS dataset, published simultaneously with the paper "Superresolution of real-world multiscale bone CT verified with clinical bone measures", presented at the MIUA (Medical Image Understanding and Analysis) conference 2024 in Manchester.
-DOI: [10.1007/978-3-031-66958-3_12](https://doi.org/10.1007/978-3-031-66958-3_12)
+This is the project page for the FACTS dataset, published simultaneously with the paper ["Superresolution of real-world multiscale bone CT verified with clinical bone measures"](https://doi.org/10.1007/978-3-031-66958-3_12), presented at the MIUA (Medical Image Understanding and Analysis) conference 2024 in Manchester.
 
 The dataset was created as a benchmark for 3D superresolution networks and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution volumes.
 
@@ -54,13 +53,15 @@ On overview of the modalities along with file types, data types and some voxel s
 |     Synthetic   (SY)      | -                           |     TIFF             |     Float32          | -                                            |
 |     Mask (MS)             | -                           |     TIFF             |     Uint8            | -                                            |
 
+### Microstructure
 The goal of superresolution for bone data is typically to recover microstructure To get a sense of the structure in the scans, example slices with zoomed-in patches of the clinical CT, micro-CT and synthetically downsampled data can be seen in the figure below:
 
 ![Microstructure of data](https://github.com/user-attachments/assets/4a5e778e-2bc9-4299-880a-32f57b2e8280)
 
-We also show the centre slices of the micro-CT, clinical CT, synthetic and mask of one of the bone scans in the figure below:
+### Modalities
+We have created a GIF that shows the centre slice of a bone in all three planes for all modalities:
 
-![Center slices of HR, LR, mask and synthetic](https://github.com/user-attachments/assets/fb850a91-5d7c-40c2-9224-57ff169c1eaf)
+![Bone GIF (1)](https://github.com/user-attachments/assets/d0652604-cb4c-46e3-9547-190394f1fc82)
 
 ## Usage
 
