@@ -37,24 +37,18 @@ Lastly, we have produced binary mask volumes (MS) of the bones by performing blu
 
 On overview of the modalities along with file types, data types and some voxel statistics are given in the table below:
 
-|---------------------|------------------|------------------|------------------|------------------------|
-| ** Modality **      | ** Orig.      ** | ** File type  ** | ** Data type  ** | **  Voxel intensity ** |
-|                     | ** resolution ** |                  |                  | ** stats. (avg.)    ** |
-|---------------------|------------------|------------------|------------------|------------------------|
-|  Micro-CT (HR)      |  58x58x58µm3     |   TIFF           |   Float32        |   Min: -100            |
-|                     |                  |                  |                  |   Max: 1000            |
-|                     |                  |                  |                  |   Mean: 15.3           |
-|                     |                  |                  |                  |   Median: 1.4          |
-|---------------------|------------------|------------------|------------------|------------------------|
-|  Clinical CT (LR)   |  .21x.21x.4mm3   |                  |                  |   Min: -1000           |
-|                     |                  |                  |                  |   Max: 3000            |
-|                     |                  |                  |                  |   Mean: -736           |
-|                     |                  |                  |                  |   Median: -982         |
-|---------------------|------------------|------------------|------------------|------------------------|
-|  Synthetic (SY)     |                  |                  |                  |                        |
-|---------------------|------------------|------------------|------------------|------------------------|
-|  Mask (MS)          |                  |                  |   Uint8          |                        |
-|---------------------|------------------|------------------|------------------|------------------------|
+| **    Modality   **       | **    Orig. resolution   ** | **    File type   ** | **    Data type   ** | **    Voxel intensity stats.     (avg.)   ** |
+|---------------------------|-----------------------------|----------------------|----------------------|----------------------------------------------|
+|     Micro-CT (HR)         |     58x58x58µm3             |     TIFF             |     Float32          |     Min: -100                                |
+|                           |                             |                      |                      |     Max: 1000                                |
+|                           |                             |                      |                      |     Mean: 15.3                               |
+|                           |                             |                      |                      |     Median: 1.4                              |
+|     Clinical CT   (LR)    |     .21x.21x.4mm3           |                      |                      |     Min: -1000                               |
+|                           |                             |                      |                      |     Max: 3000                                |
+|                           |                             |                      |                      |     Mean: -736                               |
+|                           |                             |                      |                      |     Median: -982                             |
+|     Synthetic   (SY)      |                             |                      |                      |                                              |
+|     Mask (MS)             |                             |                      |     Uint8            |                                              |
 
 A 3D rendering of one of the full micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below:
 
