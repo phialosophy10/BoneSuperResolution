@@ -37,7 +37,7 @@ Lastly, we have produced binary mask volumes (MS) of the bones by performing blu
 
 On overview of the modalities along with file types, data types and some voxel statistics are given in the table below:
 
-| **    Modality   **       | **    Orig. resolution   ** | **    File type   ** | **    Data type   ** | **    Voxel intensity stats.     (avg.)   ** |
+|     Modality              |     Orig. resolution        |     File type        |     Data type        |     Voxel intensity stats.     (avg.)        |
 |---------------------------|-----------------------------|----------------------|----------------------|----------------------------------------------|
 |     Micro-CT (HR)         |     58x58x58µm3             |     TIFF             |     Float32          |     Min: -100                                |
 |                           |                             |                      |                      |     Max: 1000                                |
