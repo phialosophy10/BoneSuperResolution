@@ -61,7 +61,7 @@ The goal of superresolution for bone data is typically to recover microstructure
 ### Modalities
 We have created a GIF that shows the centre slice of a bone in all three planes for all modalities:
 
-![Bone GIF (1)](https://github.com/user-attachments/assets/d0652604-cb4c-46e3-9547-190394f1fc82)
+![Bone GIF (1)](https://github.com/user-attachments/assets/d8f591f7-f5bc-4677-8526-9799362ccce4)
 
 ## Usage
 
