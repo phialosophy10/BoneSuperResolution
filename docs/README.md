@@ -40,15 +40,15 @@ On overview of the modalities along with file types, data types and some voxel s
 |     Modality              |     Orig. resolution        |     File type        |     Data type        |     Voxel intensity stats.     (avg.)        |
 |---------------------------|-----------------------------|----------------------|----------------------|----------------------------------------------|
 |     Micro-CT (HR)         |     58x58x58µm3             |     TIFF             |     Float32          |     Min: -100                                |
-|                           |                             |                      |                      |     Max: 1000                                |
-|                           |                             |                      |                      |     Mean: 15.3                               |
-|                           |                             |                      |                      |     Median: 1.4                              |
-|     Clinical CT   (LR)    |     .21x.21x.4mm3           |                      |                      |     Min: -1000                               |
-|                           |                             |                      |                      |     Max: 3000                                |
-|                           |                             |                      |                      |     Mean: -736                               |
-|                           |                             |                      |                      |     Median: -982                             |
-|     Synthetic   (SY)      |                             |                      |                      |                                              |
-|     Mask (MS)             |                             |                      |     Uint8            |                                              |
+|                           |     58x58x58µm3             |     TIFF             |     Float32          |     Max: 1000                                |
+|                           |     58x58x58µm3             |     TIFF             |     Float32          |     Mean: 15.3                               |
+|                           |     58x58x58µm3             |     TIFF             |     Float32          |     Median: 1.4                              |
+|     Clinical CT   (LR)    |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Min: -1000                               |
+|                           |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Max: 3000                                |
+|                           |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Mean: -736                               |
+|                           |     .21x.21x.4mm3           |     TIFF             |     Float32          |     Median: -982                             |
+|     Synthetic   (SY)      | -                           |     TIFF             |     Float32          | -                                            |
+|     Mask (MS)             | -                           |     TIFF             |     Uint8            | -                                            |
 
 A 3D rendering of one of the full micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below:
 
