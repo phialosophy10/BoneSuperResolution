@@ -2,11 +2,11 @@
 
 This is the project page for the FACTS dataset, published simultaneously with the paper ["Superresolution of real-world multiscale bone CT verified with clinical bone measures"](https://doi.org/10.1007/978-3-031-66958-3_12), presented at the MIUA (Medical Image Understanding and Analysis) conference 2024 in Manchester.
 
-The dataset was created as a benchmark for 3D superresolution networks and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution volumes.
+The dataset was created as a benchmark for 3D superresolution and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution volumes.
 
 ## Detailed description and download
 
-The data can be downloaded [here](https://doi.org/10.5281/zenodo.13885028).
+The data can be downloaded [here](https://archive.compute.dtu.dk/files/public/projects/FACTS).
 
 A 3D rendering of one of the full micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below:
 
@@ -39,7 +39,7 @@ For research purposes, we have also produced synthetic low-resolution volumes (S
 
 Lastly, we have produced binary mask volumes (MS) of the bones by performing blurring, dilation and thresholding of the HR volumes. The masks indicate whether a voxel is inside (255) or outside (0) of the bone surface.
 
-On overview of the modalities along with file types, data types and some voxel statistics are given in the table below:
+An overview of the modalities along with file types, data types and some voxel statistics are given in the table below:
 
 |     Modality              |     Orig. resolution        |     File type        |     Data type        |     Voxel intensity stats.     (avg.)                |
 |---------------------------|-----------------------------|----------------------|----------------------|------------------------------------------------------|
@@ -53,7 +53,7 @@ The goal of superresolution for bone data is typically to recover microstructure
 
 ![Microstructure of data](https://github.com/user-attachments/assets/4a5e778e-2bc9-4299-880a-32f57b2e8280)
 
-We have created a GIF that shows the centre slice of a bone in all three planes for all modalities:
+We have created a GIF that shows the centre slice of a bone in all three planes for all modalities here:
 
 ![Bone GIF (1)](https://github.com/user-attachments/assets/d8f591f7-f5bc-4677-8526-9799362ccce4)
 
@@ -63,21 +63,24 @@ We have created a GIF that shows the centre slice of a bone in all three planes 
 import tifffile
 import matplotlib.pyplot as plt
 
-# load femur "001"
+# load femur "f_001"
 vol_hr = tifffile.imread('/root_path/f_001/HR/f_001.tif')
 vol_lr = tifffile.imread('/root_path/f_001/LR/f_001.tif')
 vol_sy = tifffile.imread('/root_path/f_001/SY/f_001.tif')
+vol_ms = tifffile.imread('/root_path/f_001/MS/f_001.tif')
 
 # show selected slice from each volume
 idx = 800
 
-fig, ax = plt.subplots(1, 3)
+fig, ax = plt.subplots(1, 4)
 ax[0] = plt.imshow(vol_hr[:,:,idx],cmap='gray')
 ax[0].set_title('micro-CT slice')
-ax[1] = plt.imshow(vol_hr[:,:,idx],cmap='gray')
-ax[0].set_title('clinical CT slice')
-ax[2] = plt.imshow(vol_hr[:,:,idx],cmap='gray')
-ax[0].set_title('synthetic low-res slice')
+ax[1] = plt.imshow(vol_lr[:,:,idx],cmap='gray')
+ax[1].set_title('clinical CT slice')
+ax[2] = plt.imshow(vol_sy[:,:,idx],cmap='gray')
+ax[2].set_title('synthetic low-res slice')
+ax[3] = plt.imshow(vol_ms[:,:,idx],cmap='gray')
+ax[3].set_title('mask slice')
 plt.show()
 
 
