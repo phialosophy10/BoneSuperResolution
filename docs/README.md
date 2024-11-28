@@ -17,7 +17,7 @@ The data can be downloaded [here](https://archive.compute.dtu.dk/files/public/pr
 
 ### Download using 'wget'
 To do a stable download, you can follow these steps: 
-* Copy the download link from the online archive (e.g. "https://archive.compute.dtu.dk/files/public/projects/FACTS/f_001.zip")
+* Copy the download link from the [online archive](https://archive.compute.dtu.dk/files/public/projects/FACTS) (e.g. "https://archive.compute.dtu.dk/files/public/projects/FACTS/f_001.zip")
 * Open a terminal on your workspace and navigate to the folder, where you want the data
 * Use the following command:
 
