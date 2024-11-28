@@ -1,0 +1,74 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: FACTS
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - family-names: Bardenfleth
+    given-names: Sophia W.
+    email: soeba@dtu.dk
+    affiliation: Technical University of Denmark
+    orcid: 'https://orcid.org/0009-0005-7739-0064'
+  - given-names: Vedrana A
+    family-names: Dahl
+    email: vand@dtu.dk
+    affiliation: Technical University of Denmark
+    orcid: 'https://orcid.org/0000-0001-6734-5570'
+  - given-names: Chiara
+    family-names: Villa
+    email: chiara.villa@sund.ku.dk
+    affiliation: University of Copenhagen
+    orcid: 'https://orcid.org/0000-0002-9967-8131'
+  - given-names: Kazakia
+    family-names: Galateia
+    email: galateia.kazakia@ucsf.edu
+    affiliation: 'University of California, San Francisco'
+    orcid: 'https://orcid.org/0000-0002-7327-6425'
+  - given-names: Anders B.
+    family-names: Dahl
+    email: abda@dtu.dk
+    affiliation: Technical University of Denmark
+    orcid: 'https://orcid.org/0000-0002-0068-8170'
+identifiers:
+  - type: doi
+    value: 10.1007/978-3-031-66958-3_12
+    description: 'Original paper, where data was published'
+repository-code: 'https://github.com/phialosophy10/BoneSuperResolution/'
+url: 'https://phialosophy10.github.io/BoneSuperResolution/'
+repository: 'https://archive.compute.dtu.dk/files/public/projects/FACTS'
+abstract: >-
+  The FACTS dataset was created as a benchmark for 3D
+  superresolution and consists of archaeological bones
+  scanned with two different scanners, resulting in a
+  multiscale dataset, that is not simply produced by
+  downsampling high-resolution volumes.
+keywords:
+  - Bone
+  - CT
+  - Super-resolution
+preferred-citation:
+  title: "Superresolution of real-world multiscale bone CT verified with clinical bone measures"
+  type: conference-paper
+  authors:
+  - family-names: Bardenfleth
+    given-names: Sophia W.
+  - given-names: Vedrana A
+    family-names: Dahl
+  - given-names: Chiara
+    family-names: Villa
+  - given-names: Kazakia
+    family-names: Galateia
+  - given-names: Anders B.
+    family-names: Dahl
+  collection-title: "Medical Image Understanding and Analysis" # booktitle
+  collection-type: "proceedings"
+  conference:
+    name: "MIUA" # series
+  doi: "10.1007/978-3-031-66958-3_12"
+  start: 160 # First page number
+  end: 173 # Last page number
+  year: 2014
