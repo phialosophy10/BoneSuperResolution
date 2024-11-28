@@ -11,6 +11,9 @@ A 3D rendering of one of the full micro-CT bone scans, with the femoral neck hig
 ## Citing
 If you use the dataset in your research, you should cite the [paper](https://doi.org/10.1007/978-3-031-66958-3_12), where it was first published (DOI: 10.1007/978-3-031-66958-3_12).
 
+Citation file: 
+
+
 ## Download
 
 The data can be downloaded [here](https://archive.compute.dtu.dk/files/public/projects/FACTS).
