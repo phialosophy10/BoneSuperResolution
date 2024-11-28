@@ -4,14 +4,31 @@ This is the project page for the FACTS dataset, published simultaneously with th
 
 The dataset was created as a benchmark for 3D superresolution and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution volumes.
 
-## Detailed description and download
-
-The data can be downloaded [here](https://archive.compute.dtu.dk/files/public/projects/FACTS).
-
 A 3D rendering of one of the full micro-CT bone scans, with the femoral neck highlighted, can be seen in the figure below:
 
 ![3D rendering of femur](https://github.com/phialosophy10/BoneSuperResolution/assets/93533251/945d4ad4-9023-4e59-9b42-a36c5e1b2978)
 
+## Citing
+If you use the dataset in your research, you should cite the [paper](https://doi.org/10.1007/978-3-031-66958-3_12), where it was first published (DOI: 10.1007/978-3-031-66958-3_12).
+
+## Download
+
+The data can be downloaded [here](https://archive.compute.dtu.dk/files/public/projects/FACTS).
+
+### Download using 'wget'
+To do a stable download, you can follow these steps: 
+* Copy the download link from the online archive (e.g. "https://archive.compute.dtu.dk/files/public/projects/FACTS/f_001.zip")
+* Open a terminal on your workspace and navigate to the folder, where you want the data
+* Use the following command:
+''''
+wget -c -O my_data.tif "paste the url within quotes"
+''''
+e.g.
+''''
+wget -c -O f_001.tif "https://archive.compute.dtu.dk/files/public/projects/FACTS/f_001.zip"
+''''
+
+## Detailed description
 The FACTS dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The dataset contains both left and right proximal femurs from both males and females (2M/11F). 
 
 An overview of the names, sex, approximated age (if available) and the shape of each of the bone volumes is given in the following table:
