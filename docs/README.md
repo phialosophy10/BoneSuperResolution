@@ -20,13 +20,15 @@ To do a stable download, you can follow these steps:
 * Copy the download link from the online archive (e.g. "https://archive.compute.dtu.dk/files/public/projects/FACTS/f_001.zip")
 * Open a terminal on your workspace and navigate to the folder, where you want the data
 * Use the following command:
-''''
+
+````
 wget -c -O my_data.tif "paste the url within quotes"
-''''
+````
 e.g.
-''''
+
+````
 wget -c -O f_001.tif "https://archive.compute.dtu.dk/files/public/projects/FACTS/f_001.zip"
-''''
+````
 
 ## Detailed description
 The FACTS dataset consists of 13 archaeological proximal femurs from humans dated around the Middle Ages in Denmark. The dataset contains both left and right proximal femurs from both males and females (2M/11F). 
