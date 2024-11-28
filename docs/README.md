@@ -9,10 +9,7 @@ A 3D rendering of one of the full micro-CT bone scans, with the femoral neck hig
 ![3D rendering of femur](https://github.com/phialosophy10/BoneSuperResolution/assets/93533251/945d4ad4-9023-4e59-9b42-a36c5e1b2978)
 
 ## Citing
-If you use the dataset in your research, you should cite the [paper](https://doi.org/10.1007/978-3-031-66958-3_12), where it was first published (DOI: 10.1007/978-3-031-66958-3_12).
-
-Citation file: 
-
+If you use the dataset in your research, you should cite the [paper](https://doi.org/10.1007/978-3-031-66958-3_12), where it was first published (DOI: 10.1007/978-3-031-66958-3_12). You can download the Bibtex file from the "Cite this repository" drop-down menu in the [repo](https://github.com/phialosophy10/BoneSuperResolution).
 
 ## Download
 
