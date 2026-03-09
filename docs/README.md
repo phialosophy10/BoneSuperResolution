@@ -27,7 +27,7 @@ wget -c -O my_data.tif "paste the url within quotes"
 e.g.
 
 ````
-wget -c -O f_001.tif "https://archive.compute.dtu.dk/files/public/projects/FACTS/f_001.zip"
+wget -c -O f_001.tif "https://archive.compute.dtu.dk/downloads/public/projects/FACTS/f_001.zip"
 ````
 
 ## Detailed description
