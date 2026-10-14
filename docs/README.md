@@ -1,5 +1,10 @@
 # FACTS (Femur Archaeological CT Superresolution) Dataset
 
+> **This page has moved.** The FACTS dataset now has its own repository and project page, with updated preprocessing and SRGAN/ESRGAN benchmark results:
+> **[phialosophy10.github.io/FACTS](https://phialosophy10.github.io/FACTS/)** · code: [github.com/phialosophy10/FACTS](https://github.com/phialosophy10/FACTS)
+>
+> This page and repository are kept for reference to the MIUA 2024 paper.
+
 This is the project page for the FACTS dataset, published simultaneously with the paper ["Superresolution of real-world multiscale bone CT verified with clinical bone measures"](https://doi.org/10.1007/978-3-031-66958-3_12), presented at the MIUA (Medical Image Understanding and Analysis) conference 2024 in Manchester.
 
 The dataset was created as a benchmark for 3D superresolution and consists of archaeological bones scanned with two different scanners, resulting in a multiscale dataset, that is not simply produced by downsampling high-resolution volumes.
